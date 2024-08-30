@@ -1,0 +1,56 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"linkReferences": {},
+			"object": "608060405260008060006101000a81548160ff021916908315150217905550348015602957600080fd5b50603f8060376000396000f3fe6080604052600080fdfea26469706673582212209209d2e25fdf26a25e266b2ee5f7c9c1e03bc3dea3207b515a68879ac816d0e164736f6c63430006060033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 PUSH1 0x0 PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH1 0xFF MUL NOT AND SWAP1 DUP4 ISZERO ISZERO MUL OR SWAP1 SSTORE POP CALLVALUE DUP1 ISZERO PUSH1 0x29 JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x3F DUP1 PUSH1 0x37 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SWAP3 MULMOD 0xD2 0xE2 0x5F 0xDF 0x26 LOG2 0x5E 0x26 PUSH12 0x2EE5F7C9C1E03BC3DEA3207B MLOAD GAS PUSH9 0x879AC816D0E164736F PUSH13 0x63430006060033000000000000 ",
+			"sourceMap": "42419:165:0:-:0;;;42462:5;42448:19;;;;;;;;;;;;;;;;;;;;42419:165;5:9:-1;2:2;;;27:1;24;17:12;2:2;42419:165:0;;;;;;;"
+		},
+		"deployedBytecode": {
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "6080604052600080fdfea26469706673582212209209d2e25fdf26a25e266b2ee5f7c9c1e03bc3dea3207b515a68879ac816d0e164736f6c63430006060033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 SWAP3 MULMOD 0xD2 0xE2 0x5F 0xDF 0x26 LOG2 0x5E 0x26 PUSH12 0x2EE5F7C9C1E03BC3DEA3207B MLOAD GAS PUSH9 0x879AC816D0E164736F PUSH13 0x63430006060033000000000000 ",
+			"sourceMap": "42419:165:0:-:0;;;12:1:-1;9;2:12"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12600",
+				"executionCost": "20933",
+				"totalCost": "33533"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}

@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "implementation",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "codeAddr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "proxyType",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "proxyTypeId",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/polygonUsdt/IERCProxy.sol": "IERCProxy"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/polygonUsdt/IERCProxy.sol": {
+			"keccak256": "0xed437d1b4f0b6f00df13b93a40a486c5d7d321cb9f766a0d190ce1a4f006384b",
+			"urls": [
+				"bzz-raw://00fe3eaf48dc6328d14f0948d47fce0e989dd163299f0a5f45b661aaf8920548",
+				"dweb:/ipfs/QmQ1tChrfNSSjqpJ5UQrazGjcXFuGzWYs54ZPhePojkuPD"
+			]
+		}
+	},
+	"version": 1
+}

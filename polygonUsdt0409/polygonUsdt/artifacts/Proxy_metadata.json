@@ -1,0 +1,67 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "implementation",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "proxyType",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "proxyTypeId",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/polygonUsdt/Usdt-proxy-all.sol": "Proxy"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/polygonUsdt/Usdt-proxy-all.sol": {
+			"keccak256": "0x267eb997728fcfc5f4dd55adf7b042664e39592cadb50b4d8061642728cb18f0",
+			"urls": [
+				"bzz-raw://6533c51eddcc16f3fcce15a47eec2da917d296865377a27c6b207beb2de85a88",
+				"dweb:/ipfs/QmPkc8DT7tyiLSWdjERa3ZUMF8LFq3tX4SYpH6BVuLwN5V"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,40 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/polygonUsdt/proxy-impl/ContextMixin.sol": "ContextMixin"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/polygonUsdt/proxy-impl/ContextMixin.sol": {
+			"keccak256": "0xd5d3775c74d5419dbf5ad27ea2dd687537295707d8c2194def1464829a47e0bd",
+			"urls": [
+				"bzz-raw://c1aab50b336af21fedbead9a5036796bab33ceb4589108fd5e0aa79a860d0ade",
+				"dweb:/ipfs/QmdRYA6mGM8X7qTfi4u5ivhG6u1Vjyh8ZPG165xNS3UMrQ"
+			]
+		}
+	},
+	"version": 1
+}

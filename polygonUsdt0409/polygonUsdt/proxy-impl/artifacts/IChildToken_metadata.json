@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes",
+						"name": "depositData",
+						"type": "bytes"
+					}
+				],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/polygonUsdt/proxy-impl/IChildToken.sol": "IChildToken"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/polygonUsdt/proxy-impl/IChildToken.sol": {
+			"keccak256": "0x5c1ad70ead909216f36fffa2dbd6dc6ea0888550689b3c6d2739419de83163c9",
+			"urls": [
+				"bzz-raw://040bf4b6101d0a2a5e3149328cec02965197356af75b2ad8b5910d7392f40df1",
+				"dweb:/ipfs/QmTEiUCwZmMnFKs1KVv798oQVCUNs7whZsZTVKaJ54qioP"
+			]
+		}
+	},
+	"version": 1
+}

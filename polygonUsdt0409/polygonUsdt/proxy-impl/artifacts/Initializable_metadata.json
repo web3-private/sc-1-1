@@ -1,0 +1,40 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/polygonUsdt/proxy-impl/Initializable.sol": "Initializable"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/polygonUsdt/proxy-impl/Initializable.sol": {
+			"keccak256": "0x31767d990b7a2572dcad48fc035b688e9c8c8c96248edc2b0ab30871a72063e7",
+			"urls": [
+				"bzz-raw://3cd12587cdc58981cc6161f6a0afdab46270169af98605fad74a503d358d0b46",
+				"dweb:/ipfs/Qmexb3icXPDzb68bnV1HwTT9ePnz3ZzLTtE2WQUPoxG6Rf"
+			]
+		}
+	},
+	"version": 1
+}

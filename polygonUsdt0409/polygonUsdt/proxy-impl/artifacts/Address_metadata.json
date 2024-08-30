@@ -1,0 +1,41 @@
+{
+	"compiler": {
+		"version": "0.6.6+commit.6c089d02"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Collection of functions related to the address type",
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/polygonUsdt/proxy-impl/Address.sol": "Address"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/polygonUsdt/proxy-impl/Address.sol": {
+			"keccak256": "0x697faaf0a48b11db9ff355aae7899ec532571a781eb17c40c08aa270827b26df",
+			"urls": [
+				"bzz-raw://15d9f7e9c981772b249284c5023c12aa70167d4d22c0009b7d7ee3ba89eb4bac",
+				"dweb:/ipfs/QmPvLewupYqDsoEV7peT3hK6MnCjZwz9w3SksL5trewdaY"
+			]
+		}
+	},
+	"version": 1
+}

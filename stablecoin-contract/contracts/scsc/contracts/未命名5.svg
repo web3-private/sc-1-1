@@ -1,0 +1,244 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="474pt" height="894pt" viewBox="0.00 0.00 474.13 894.00">
+<g id="graph0" class="graph" transform="translate(83.80757572301604,663.0251308515835) scale(0.5904303825978447)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="none" points="-4,4 -4,-890 470.13,-890 470.13,4 -4,4" style=""/>
+<g id="clust1" class="cluster" data-name="clusterTokenBaseUpgradeable">
+
+<path fill="#445773" stroke="#445773" d="M20,-232C20,-232 446.13,-232 446.13,-232 452.13,-232 458.13,-238 458.13,-244 458.13,-244 458.13,-729 458.13,-729 458.13,-735 452.13,-741 446.13,-741 446.13,-741 20,-741 20,-741 14,-741 8,-735 8,-729 8,-729 8,-244 8,-244 8,-238 14,-232 20,-232" style=""/>
+<text text-anchor="middle" x="233.07" y="-724.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">TokenBaseUpgradeable</text>
+</g>
+<g id="clust2" class="cluster" data-name="clusterOwnableUpgradeable">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M255.07,-93C255.07,-93 442.87,-93 442.87,-93 448.87,-93 454.87,-99 454.87,-105 454.87,-105 454.87,-212 454.87,-212 454.87,-218 448.87,-224 442.87,-224 442.87,-224 255.07,-224 255.07,-224 249.07,-224 243.07,-218 243.07,-212 243.07,-212 243.07,-105 243.07,-105 243.07,-99 249.07,-93 255.07,-93" style=""/>
+<text text-anchor="middle" x="348.97" y="-207.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">OwnableUpgradeable</text>
+</g>
+<g id="clust3" class="cluster" data-name="clusterspender">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M325.97,-8C325.97,-8 371.97,-8 371.97,-8 377.97,-8 383.97,-14 383.97,-20 383.97,-20 383.97,-73 383.97,-73 383.97,-79 377.97,-85 371.97,-85 371.97,-85 325.97,-85 325.97,-85 319.97,-85 313.97,-79 313.97,-73 313.97,-73 313.97,-20 313.97,-20 313.97,-14 319.97,-8 325.97,-8" style=""/>
+<text text-anchor="middle" x="348.97" y="-68.4" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">spender</text>
+</g>
+<g id="clust4" class="cluster" data-name="cluster_01">
+
+<polygon fill="#2e3e56" stroke="black" points="40.9,-749 40.9,-878 383.97,-878 383.97,-749 40.9,-749" style=""/>
+<text text-anchor="middle" x="212.44" y="-861.4" font-family="Times,serif" font-size="14.00" style="">Legend</text>
+</g>
+<!-- TokenBaseUpgradeable.initialize -->
+<g id="node1" class="node" pointer-events="visible" data-name="TokenBaseUpgradeable.initialize">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="113.9" cy="-690" rx="44.64" ry="18" style=""/>
+<text text-anchor="middle" x="113.9" y="-685.8" font-family="Times,serif" font-size="14.00" style="">initialize</text>
+</g>
+<!-- TokenBaseUpgradeable.__ERC20_init -->
+<g id="node10" class="node" pointer-events="visible" data-name="TokenBaseUpgradeable.__ERC20_init">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="348.97" cy="-528" rx="66.68" ry="18" style=""/>
+<text text-anchor="middle" x="348.97" y="-523.8" font-family="Times,serif" font-size="14.00" style="">__ERC20_init</text>
+</g>
+<!-- TokenBaseUpgradeable.initialize&#45;&gt;TokenBaseUpgradeable.__ERC20_init -->
+<g id="edge1" class="edge" data-name="TokenBaseUpgradeable.initialize-&gt;TokenBaseUpgradeable.__ERC20_init">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M159.2,-687.04C177.62,-683.65 197.9,-676.76 211.8,-663 247.32,-627.84 207.21,-589.8 243.07,-555 251.11,-547.2 261.09,-541.56 271.67,-537.51" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="272.48,-540.93 280.92,-534.51 270.33,-534.27 272.48,-540.93" style=""/>
+</g>
+<!-- TokenBaseUpgradeable.__ERC20Permit_init -->
+<g id="node11" class="node" pointer-events="visible" data-name="TokenBaseUpgradeable.__ERC20Permit_init">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="348.97" cy="-582" rx="92.68" ry="18" style=""/>
+<text text-anchor="middle" x="348.97" y="-577.8" font-family="Times,serif" font-size="14.00" style="">__ERC20Permit_init</text>
+</g>
+<!-- TokenBaseUpgradeable.initialize&#45;&gt;TokenBaseUpgradeable.__ERC20Permit_init -->
+<g id="edge2" class="edge" data-name="TokenBaseUpgradeable.initialize-&gt;TokenBaseUpgradeable.__ERC20Permit_init">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M158.2,-685.25C176.22,-681.52 196.48,-674.87 211.8,-663 233.73,-646.02 220.97,-625.76 243.07,-609 248.59,-604.81 254.7,-601.27 261.11,-598.27" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="262.18,-601.61 270.12,-594.59 259.54,-595.13 262.18,-601.61" style=""/>
+</g>
+<!-- TokenBaseUpgradeable.__ERC20Pausable_init -->
+<g id="node12" class="node" pointer-events="visible" data-name="TokenBaseUpgradeable.__ERC20Pausable_init">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="348.97" cy="-636" rx="101.33" ry="18" style=""/>
+<text text-anchor="middle" x="348.97" y="-631.8" font-family="Times,serif" font-size="14.00" style="">__ERC20Pausable_init</text>
+</g>
+<!-- TokenBaseUpgradeable.initialize&#45;&gt;TokenBaseUpgradeable.__ERC20Pausable_init -->
+<g id="edge3" class="edge" data-name="TokenBaseUpgradeable.initialize-&gt;TokenBaseUpgradeable.__ERC20Pausable_init">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M154.44,-680.84C186.25,-673.47 231.9,-662.89 270.88,-653.86" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="271.65,-657.28 280.6,-651.61 270.07,-650.46 271.65,-657.28" style=""/>
+</g>
+<!-- TokenBaseUpgradeable.__Ownable_init -->
+<g id="node13" class="node" pointer-events="visible" data-name="TokenBaseUpgradeable.__Ownable_init">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="348.97" cy="-690" rx="73.02" ry="18" style=""/>
+<text text-anchor="middle" x="348.97" y="-685.8" font-family="Times,serif" font-size="14.00" style="">__Ownable_init</text>
+</g>
+<!-- TokenBaseUpgradeable.initialize&#45;&gt;TokenBaseUpgradeable.__Ownable_init -->
+<g id="edge4" class="edge" data-name="TokenBaseUpgradeable.initialize-&gt;TokenBaseUpgradeable.__Ownable_init">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M159.84,-690C188.82,-690 227.45,-690 262.16,-690" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="261.72,-693.5 271.72,-690 261.72,-686.5 261.72,-693.5" style=""/>
+</g>
+<!-- TokenBaseUpgradeable.updateCurrency -->
+<g id="node2" class="node" pointer-events="visible" data-name="TokenBaseUpgradeable.updateCurrency">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="113.9" cy="-636" rx="72.92" ry="18" style=""/>
+<text text-anchor="middle" x="113.9" y="-631.8" font-family="Times,serif" font-size="14.00" style="">updateCurrency</text>
+</g>
+<!-- TokenBaseUpgradeable.decimals -->
+<g id="node3" class="node" pointer-events="visible" data-name="TokenBaseUpgradeable.decimals">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="113.9" cy="-582" rx="45.22" ry="18" style=""/>
+<text text-anchor="middle" x="113.9" y="-577.8" font-family="Times,serif" font-size="14.00" style="">decimals</text>
+</g>
+<!-- TokenBaseUpgradeable.updateDecimals -->
+<g id="node4" class="node" pointer-events="visible" data-name="TokenBaseUpgradeable.updateDecimals">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="113.9" cy="-528" rx="73.49" ry="18" style=""/>
+<text text-anchor="middle" x="113.9" y="-523.8" font-family="Times,serif" font-size="14.00" style="">updateDecimals</text>
+</g>
+<!-- TokenBaseUpgradeable.mint -->
+<g id="node5" class="node" pointer-events="visible" data-name="TokenBaseUpgradeable.mint">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="113.9" cy="-474" rx="28.99" ry="18" style=""/>
+<text text-anchor="middle" x="113.9" y="-469.8" font-family="Times,serif" font-size="14.00" style="">mint</text>
+</g>
+<!-- TokenBaseUpgradeable._mint -->
+<g id="node14" class="node" pointer-events="visible" data-name="TokenBaseUpgradeable._mint">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="348.97" cy="-474" rx="33.64" ry="18" style=""/>
+<text text-anchor="middle" x="348.97" y="-469.8" font-family="Times,serif" font-size="14.00" style="">_mint</text>
+</g>
+<!-- TokenBaseUpgradeable.mint&#45;&gt;TokenBaseUpgradeable._mint -->
+<g id="edge5" class="edge" data-name="TokenBaseUpgradeable.mint-&gt;TokenBaseUpgradeable._mint">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M143.95,-474C183.35,-474 254.19,-474 301.15,-474" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="300.99,-477.5 310.99,-474 300.99,-470.5 300.99,-477.5" style=""/>
+</g>
+<!-- TokenBaseUpgradeable._beforeTokenTransfer -->
+<g id="node6" class="node" pointer-events="visible" data-name="TokenBaseUpgradeable._beforeTokenTransfer">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="113.9" cy="-312" rx="97.8" ry="18" style=""/>
+<text text-anchor="middle" x="113.9" y="-307.8" font-family="Times,serif" font-size="14.00" style="">_beforeTokenTransfer</text>
+</g>
+<!-- OwnableUpgradeable._beforeTokenTransfer -->
+<g id="node18" class="node" pointer-events="visible" data-name="OwnableUpgradeable._beforeTokenTransfer">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="348.97" cy="-173" rx="97.8" ry="18" style=""/>
+<text text-anchor="middle" x="348.97" y="-168.8" font-family="Times,serif" font-size="14.00" style="">_beforeTokenTransfer</text>
+</g>
+<!-- TokenBaseUpgradeable._beforeTokenTransfer&#45;&gt;OwnableUpgradeable._beforeTokenTransfer -->
+<g id="edge6" class="edge" data-name="TokenBaseUpgradeable._beforeTokenTransfer-&gt;OwnableUpgradeable._beforeTokenTransfer">
+
+<path fill="none" stroke="white" stroke-width="2" d="M186.89,-299.04C195.83,-295.45 204.41,-290.86 211.8,-285 234.44,-267.05 222.44,-248.24 243.07,-228 256.54,-214.78 273.84,-203.96 290.5,-195.53" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="291.63,-198.87 299.14,-191.39 288.61,-192.56 291.63,-198.87" style=""/>
+</g>
+<!-- TokenBaseUpgradeable._disableInitializers -->
+<g id="node7" class="node" pointer-events="visible" data-name="TokenBaseUpgradeable._disableInitializers">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="113.9" cy="-258" rx="84.52" ry="18" style=""/>
+<text text-anchor="middle" x="113.9" y="-253.8" font-family="Times,serif" font-size="14.00" style="">_disableInitializers</text>
+</g>
+<!-- OwnableUpgradeable._disableInitializers -->
+<g id="node19" class="node" pointer-events="visible" data-name="OwnableUpgradeable._disableInitializers">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="348.97" cy="-119" rx="84.52" ry="18" style=""/>
+<text text-anchor="middle" x="348.97" y="-114.8" font-family="Times,serif" font-size="14.00" style="">_disableInitializers</text>
+</g>
+<!-- TokenBaseUpgradeable._disableInitializers&#45;&gt;OwnableUpgradeable._disableInitializers -->
+<g id="edge7" class="edge" data-name="TokenBaseUpgradeable._disableInitializers-&gt;OwnableUpgradeable._disableInitializers">
+
+<path fill="none" stroke="white" stroke-width="2" d="M131.15,-239.13C153.73,-214.09 197.06,-170.25 243.07,-146 251.24,-141.69 260.15,-138.04 269.2,-134.95" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="270.19,-138.31 278.69,-131.99 268.1,-131.63 270.19,-138.31" style=""/>
+</g>
+<!-- TokenBaseUpgradeable.approveAndCall -->
+<g id="node8" class="node" pointer-events="visible" data-name="TokenBaseUpgradeable.approveAndCall">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="113.9" cy="-420" rx="74.73" ry="18" style=""/>
+<text text-anchor="middle" x="113.9" y="-415.8" font-family="Times,serif" font-size="14.00" style="">approveAndCall</text>
+</g>
+<!-- TokenBaseUpgradeable._approve -->
+<g id="node15" class="node" pointer-events="visible" data-name="TokenBaseUpgradeable._approve">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="348.97" cy="-366" rx="46.93" ry="18" style=""/>
+<text text-anchor="middle" x="348.97" y="-361.8" font-family="Times,serif" font-size="14.00" style="">_approve</text>
+</g>
+<!-- TokenBaseUpgradeable.approveAndCall&#45;&gt;TokenBaseUpgradeable._approve -->
+<g id="edge8" class="edge" data-name="TokenBaseUpgradeable.approveAndCall-&gt;TokenBaseUpgradeable._approve">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M170.73,-407.07C208.19,-398.39 257.27,-387.01 294.28,-378.44" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="294.93,-381.88 303.88,-376.21 293.35,-375.06 294.93,-381.88" style=""/>
+</g>
+<!-- TokenBaseUpgradeable._msgSender -->
+<g id="node16" class="node" pointer-events="visible" data-name="TokenBaseUpgradeable._msgSender">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="348.97" cy="-420" rx="58.56" ry="18" style=""/>
+<text text-anchor="middle" x="348.97" y="-415.8" font-family="Times,serif" font-size="14.00" style="">_msgSender</text>
+</g>
+<!-- TokenBaseUpgradeable.approveAndCall&#45;&gt;TokenBaseUpgradeable._msgSender -->
+<g id="edge9" class="edge" data-name="TokenBaseUpgradeable.approveAndCall-&gt;TokenBaseUpgradeable._msgSender">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M189.93,-420C217.61,-420 248.9,-420 276.28,-420" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="275.94,-423.5 285.94,-420 275.94,-416.5 275.94,-423.5" style=""/>
+</g>
+<!-- spender.call -->
+<g id="node20" class="node" pointer-events="visible" data-name="spender.call">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="348.97" cy="-34" rx="27" ry="18" style=""/>
+<text text-anchor="middle" x="348.97" y="-29.8" font-family="Times,serif" font-size="14.00" style="">call</text>
+</g>
+<!-- TokenBaseUpgradeable.approveAndCall&#45;&gt;spender.call -->
+<g id="edge10" class="edge" data-name="TokenBaseUpgradeable.approveAndCall-&gt;spender.call">
+
+<path fill="none" stroke="white" stroke-width="2" d="M183.03,-412.2C194.03,-408.06 204.26,-401.94 211.8,-393 299.38,-289.18 166.92,-201.47 243.07,-89 258.53,-66.16 286.6,-52.15 309.81,-43.99" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="310.76,-47.36 319.21,-40.97 308.62,-40.7 310.76,-47.36" style=""/>
+</g>
+<!-- TokenBaseUpgradeable.batchTransfer -->
+<g id="node9" class="node" pointer-events="visible" data-name="TokenBaseUpgradeable.batchTransfer">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="113.9" cy="-366" rx="64.81" ry="18" style=""/>
+<text text-anchor="middle" x="113.9" y="-361.8" font-family="Times,serif" font-size="14.00" style="">batchTransfer</text>
+</g>
+<!-- TokenBaseUpgradeable.transfer -->
+<g id="node17" class="node" pointer-events="visible" data-name="TokenBaseUpgradeable.transfer">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="348.97" cy="-312" rx="40.55" ry="18" style=""/>
+<text text-anchor="middle" x="348.97" y="-307.8" font-family="Times,serif" font-size="14.00" style="">transfer</text>
+</g>
+<!-- TokenBaseUpgradeable.batchTransfer&#45;&gt;TokenBaseUpgradeable.transfer -->
+<g id="edge11" class="edge" data-name="TokenBaseUpgradeable.batchTransfer-&gt;TokenBaseUpgradeable.transfer">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M166.34,-354.08C205.84,-344.93 260.04,-332.37 298.93,-323.36" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="299.59,-326.8 308.54,-321.13 298.01,-319.98 299.59,-326.8" style=""/>
+</g>
+<!-- key -->
+<g id="node21" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="#edad56" stroke="none" stroke-width="3" points="178.9,-845 48.9,-845 48.9,-757 178.9,-757 178.9,-845" style=""/>
+<text text-anchor="start" x="98.54" y="-826.4" font-family="Times,serif" font-size="14.00" style="">Internal Call</text>
+<text text-anchor="start" x="94.65" y="-806.4" font-family="Times,serif" font-size="14.00" style="">External Call</text>
+<text text-anchor="start" x="72.1" y="-786.4" font-family="Times,serif" font-size="14.00" style="">Defined Contract</text>
+<text text-anchor="start" x="58.5" y="-766.4" font-family="Times,serif" font-size="14.00" style="">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node22" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="#edad56" stroke="none" stroke-width="3" points="375.97,-845 321.97,-845 321.97,-757 375.97,-757 375.97,-845" style=""/>
+<text text-anchor="start" x="338.97" y="-826.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<text text-anchor="start" x="338.97" y="-806.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="#445773" stroke="none" points="336.97,-781 336.97,-801 361.97,-801 361.97,-781 336.97,-781" style=""/>
+<text text-anchor="start" x="338.97" y="-786.4" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="none" stroke="#e8726d" points="338.97,-763 338.97,-779 359.97,-779 359.97,-763 338.97,-763" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge12" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M171.9,-831C240.41,-831 260.64,-831 323.3,-831" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="322.94,-834.5 332.94,-831 322.94,-827.5 322.94,-834.5" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge13" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="white" stroke-width="2" d="M171.9,-811C240.41,-811 260.64,-811 323.3,-811" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="322.94,-814.5 332.94,-811 322.94,-807.5 322.94,-814.5" style=""/>
+</g>
+</g>
+</svg>

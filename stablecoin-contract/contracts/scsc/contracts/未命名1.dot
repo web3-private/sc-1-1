@@ -1,0 +1,12 @@
+digraph G {
+  graph [ ratio = "auto", page = "40" ];
+  "TokenBaseUpgradeable";
+  "ERC20Upgradeable";
+  "ERC20PermitUpgradeable";
+  "ERC20PausableUpgradeable";
+  "OwnableUpgradeable";
+  "TokenBaseUpgradeable" -> "ERC20Upgradeable";
+  "TokenBaseUpgradeable" -> "ERC20PermitUpgradeable";
+  "TokenBaseUpgradeable" -> "ERC20PausableUpgradeable";
+  "TokenBaseUpgradeable" -> "OwnableUpgradeable";
+}

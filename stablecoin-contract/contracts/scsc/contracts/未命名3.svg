@@ -1,0 +1,662 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1013pt" height="1308pt" viewBox="0.00 0.00 1012.90 1308.36">
+<g id="graph0" class="graph" transform="translate(-950.257499733422,2876.306842954848) scale(3.012585521517657)" data-name="G">
+
+<polygon fill="#2e3e56" stroke="none" points="-4,4 -4,-1304.36 1008.9,-1304.36 1008.9,4 -4,4" style=""/>
+<g id="clust1" class="cluster" data-name="clusterTokenUpgradeable">
+
+<path fill="#445773" stroke="#445773" d="M20,-390.36C20,-390.36 978.45,-390.36 978.45,-390.36 984.45,-390.36 990.45,-396.36 990.45,-402.36 990.45,-402.36 990.45,-1143.36 990.45,-1143.36 990.45,-1149.36 984.45,-1155.36 978.45,-1155.36 978.45,-1155.36 20,-1155.36 20,-1155.36 14,-1155.36 8,-1149.36 8,-1143.36 8,-1143.36 8,-402.36 8,-402.36 8,-396.36 14,-390.36 20,-390.36" style=""/>
+<text text-anchor="middle" x="499.23" y="-1138.76" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">TokenUpgradeable</text>
+</g>
+<g id="clust2" class="cluster" data-name="clusterBlacklistable">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M269.51,-143.36C269.51,-143.36 433.71,-143.36 433.71,-143.36 439.71,-143.36 445.71,-149.36 445.71,-155.36 445.71,-155.36 445.71,-370.36 445.71,-370.36 445.71,-376.36 439.71,-382.36 433.71,-382.36 433.71,-382.36 269.51,-382.36 269.51,-382.36 263.51,-382.36 257.51,-376.36 257.51,-370.36 257.51,-370.36 257.51,-155.36 257.51,-155.36 257.51,-149.36 263.51,-143.36 269.51,-143.36" style=""/>
+<text text-anchor="middle" x="351.61" y="-365.76" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">Blacklistable</text>
+</g>
+<g id="clust3" class="cluster" data-name="clusternewMaxFee">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M321.61,-58.36C321.61,-58.36 382.61,-58.36 382.61,-58.36 388.61,-58.36 394.61,-64.36 394.61,-70.36 394.61,-70.36 394.61,-123.36 394.61,-123.36 394.61,-129.36 388.61,-135.36 382.61,-135.36 382.61,-135.36 321.61,-135.36 321.61,-135.36 315.61,-135.36 309.61,-129.36 309.61,-123.36 309.61,-123.36 309.61,-70.36 309.61,-70.36 309.61,-64.36 315.61,-58.36 321.61,-58.36" style=""/>
+<text text-anchor="middle" x="352.11" y="-118.76" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">newMaxFee</text>
+</g>
+<g id="clust4" class="cluster" data-name="cluster_value">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M871.18,-166.36C871.18,-166.36 917.18,-166.36 917.18,-166.36 923.18,-166.36 929.18,-172.36 929.18,-178.36 929.18,-178.36 929.18,-285.36 929.18,-285.36 929.18,-291.36 923.18,-297.36 917.18,-297.36 917.18,-297.36 871.18,-297.36 871.18,-297.36 865.18,-297.36 859.18,-291.36 859.18,-285.36 859.18,-285.36 859.18,-178.36 859.18,-178.36 859.18,-172.36 865.18,-166.36 871.18,-166.36" style=""/>
+<text text-anchor="middle" x="894.18" y="-280.76" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">_value</text>
+</g>
+<g id="clust5" class="cluster" data-name="clusterSignatureChecker">
+
+<path fill="#3b4b63" stroke="#e8726d" stroke-dasharray="5,2" d="M803.46,-305.36C803.46,-305.36 984.9,-305.36 984.9,-305.36 990.9,-305.36 996.9,-311.36 996.9,-317.36 996.9,-317.36 996.9,-370.36 996.9,-370.36 996.9,-376.36 990.9,-382.36 984.9,-382.36 984.9,-382.36 803.46,-382.36 803.46,-382.36 797.46,-382.36 791.46,-376.36 791.46,-370.36 791.46,-370.36 791.46,-317.36 791.46,-317.36 791.46,-311.36 797.46,-305.36 803.46,-305.36" style=""/>
+<text text-anchor="middle" x="894.18" y="-365.76" font-family="Times,serif" font-size="14.00" fill="#f0f0f0" style="">SignatureChecker</text>
+</g>
+<g id="clust6" class="cluster" data-name="cluster_01">
+
+<polygon fill="#2e3e56" stroke="black" points="29.1,-1163.36 29.1,-1292.36 386.61,-1292.36 386.61,-1163.36 29.1,-1163.36" style=""/>
+<text text-anchor="middle" x="207.86" y="-1275.76" font-family="Times,serif" font-size="14.00" style="">Legend</text>
+</g>
+<!-- TokenUpgradeable.updateRole -->
+<g id="node1" class="node" pointer-events="visible" data-name="TokenUpgradeable.updateRole">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="102.1" cy="-976.36" rx="55.03" ry="18" style=""/>
+<text text-anchor="middle" x="102.1" y="-972.16" font-family="Times,serif" font-size="14.00" style="">updateRole</text>
+</g>
+<!-- TokenUpgradeable.updatePauser -->
+<g id="node4" class="node" pointer-events="visible" data-name="TokenUpgradeable.updatePauser">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="351.61" cy="-814.36" rx="62.55" ry="18" style=""/>
+<text text-anchor="middle" x="351.61" y="-810.16" font-family="Times,serif" font-size="14.00" style="">updatePauser</text>
+</g>
+<!-- TokenUpgradeable.updateRole&#45;&gt;TokenUpgradeable.updatePauser -->
+<g id="edge3" class="edge" data-name="TokenUpgradeable.updateRole-&gt;TokenUpgradeable.updatePauser">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M140.8,-962.28C157.13,-954.62 175.41,-943.73 188.2,-929.36 216.29,-897.79 191.78,-868.46 224.2,-841.36 238.54,-829.37 256.92,-822.32 275.21,-818.27" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="275.64,-821.75 284.83,-816.48 274.35,-814.87 275.64,-821.75" style=""/>
+</g>
+<!-- TokenUpgradeable.updateBlacklister -->
+<g id="node5" class="node" pointer-events="visible" data-name="TokenUpgradeable.updateBlacklister">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="351.61" cy="-976.36" rx="78.72" ry="18" style=""/>
+<text text-anchor="middle" x="351.61" y="-972.16" font-family="Times,serif" font-size="14.00" style="">updateBlacklister</text>
+</g>
+<!-- TokenUpgradeable.updateRole&#45;&gt;TokenUpgradeable.updateBlacklister -->
+<g id="edge2" class="edge" data-name="TokenUpgradeable.updateRole-&gt;TokenUpgradeable.updateBlacklister">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M158.34,-976.36C187.9,-976.36 225.08,-976.36 258.85,-976.36" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="258.57,-979.86 268.57,-976.36 258.57,-972.86 258.57,-979.86" style=""/>
+</g>
+<!-- TokenUpgradeable._blacklist -->
+<g id="node6" class="node" pointer-events="visible" data-name="TokenUpgradeable._blacklist">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="351.61" cy="-922.36" rx="48.67" ry="18" style=""/>
+<text text-anchor="middle" x="351.61" y="-918.16" font-family="Times,serif" font-size="14.00" style="">_blacklist</text>
+</g>
+<!-- TokenUpgradeable.updateRole&#45;&gt;TokenUpgradeable._blacklist -->
+<g id="edge7" class="edge" data-name="TokenUpgradeable.updateRole-&gt;TokenUpgradeable._blacklist">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M149.66,-965.87C172.17,-960.83 199.58,-954.73 224.2,-949.36 247.38,-944.3 272.99,-938.81 295.05,-934.11" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="295.57,-937.58 304.63,-932.08 294.12,-930.73 295.57,-937.58" style=""/>
+</g>
+<!-- TokenUpgradeable.updateMasterMinter -->
+<g id="node15" class="node" pointer-events="visible" data-name="TokenUpgradeable.updateMasterMinter">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="351.61" cy="-1084.36" rx="89.75" ry="18" style=""/>
+<text text-anchor="middle" x="351.61" y="-1080.16" font-family="Times,serif" font-size="14.00" style="">updateMasterMinter</text>
+</g>
+<!-- TokenUpgradeable.updateRole&#45;&gt;TokenUpgradeable.updateMasterMinter -->
+<g id="edge1" class="edge" data-name="TokenUpgradeable.updateRole-&gt;TokenUpgradeable.updateMasterMinter">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M123.97,-993.96C147.04,-1012.5 185.99,-1041.2 224.2,-1057.36 236.7,-1062.64 250.35,-1066.94 263.91,-1070.41" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="262.82,-1073.75 273.36,-1072.68 264.45,-1066.94 262.82,-1073.75" style=""/>
+</g>
+<!-- TokenUpgradeable.transferOwnership -->
+<g id="node23" class="node" pointer-events="visible" data-name="TokenUpgradeable.transferOwnership">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="351.61" cy="-1030.36" rx="82.81" ry="18" style=""/>
+<text text-anchor="middle" x="351.61" y="-1026.16" font-family="Times,serif" font-size="14.00" style="">transferOwnership</text>
+</g>
+<!-- TokenUpgradeable.updateRole&#45;&gt;TokenUpgradeable.transferOwnership -->
+<g id="edge4" class="edge" data-name="TokenUpgradeable.updateRole-&gt;TokenUpgradeable.transferOwnership">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M149.66,-986.84C172.17,-991.88 199.58,-997.98 224.2,-1003.36 241.14,-1007.05 259.38,-1010.98 276.58,-1014.66" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="275.71,-1018.05 286.22,-1016.72 277.18,-1011.21 275.71,-1018.05" style=""/>
+</g>
+<!-- TokenUpgradeable.balanceOf -->
+<g id="node24" class="node" pointer-events="visible" data-name="TokenUpgradeable.balanceOf">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="894.18" cy="-760.36" rx="50.92" ry="18" style=""/>
+<text text-anchor="middle" x="894.18" y="-756.16" font-family="Times,serif" font-size="14.00" style="">balanceOf</text>
+</g>
+<!-- TokenUpgradeable.updateRole&#45;&gt;TokenUpgradeable.balanceOf -->
+<g id="edge5" class="edge" data-name="TokenUpgradeable.updateRole-&gt;TokenUpgradeable.balanceOf">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M113.03,-995.26C130.6,-1026.39 170.43,-1087.36 224.2,-1111.36 333.63,-1160.2 665.13,-1179.85 763.46,-1111.36 870.17,-1037.04 889.31,-864.36 892.59,-792.57" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="896.09,-792.76 892.95,-782.64 889.09,-792.5 896.09,-792.76" style=""/>
+</g>
+<!-- TokenUpgradeable._transfer -->
+<g id="node25" class="node" pointer-events="visible" data-name="TokenUpgradeable._transfer">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="639.25" cy="-814.36" rx="45.21" ry="18" style=""/>
+<text text-anchor="middle" x="639.25" y="-810.16" font-family="Times,serif" font-size="14.00" style="">_transfer</text>
+</g>
+<!-- TokenUpgradeable.updateRole&#45;&gt;TokenUpgradeable._transfer -->
+<g id="edge6" class="edge" data-name="TokenUpgradeable.updateRole-&gt;TokenUpgradeable._transfer">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M142.19,-962.88C158.6,-955.38 176.55,-944.46 188.2,-929.36 227.98,-877.81 172.81,-827.34 224.2,-787.36 279.08,-744.65 486.71,-781.72 585.45,-802.53" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="584.6,-805.92 595.11,-804.59 586.06,-799.08 584.6,-805.92" style=""/>
+</g>
+<!-- TokenUpgradeable.pause -->
+<g id="node2" class="node" pointer-events="visible" data-name="TokenUpgradeable.pause">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="102.1" cy="-740.36" rx="33.05" ry="18" style=""/>
+<text text-anchor="middle" x="102.1" y="-736.16" font-family="Times,serif" font-size="14.00" style="">pause</text>
+</g>
+<!-- Blacklistable._pause -->
+<g id="node39" class="node" pointer-events="visible" data-name="Blacklistable._pause">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="351.61" cy="-331.36" rx="37.71" ry="18" style=""/>
+<text text-anchor="middle" x="351.61" y="-327.16" font-family="Times,serif" font-size="14.00" style="">_pause</text>
+</g>
+<!-- TokenUpgradeable.pause&#45;&gt;Blacklistable._pause -->
+<g id="edge8" class="edge" data-name="TokenUpgradeable.pause-&gt;Blacklistable._pause">
+
+<path fill="none" stroke="white" stroke-width="2" d="M136.22,-738.36C154.35,-735.45 175.62,-728.7 188.2,-713.36 280.88,-600.28 137.47,-504.06 224.2,-386.36 242.52,-361.49 274.5,-347.72 301.71,-340.17" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="302.42,-343.6 311.27,-337.77 300.72,-336.81 302.42,-343.6" style=""/>
+</g>
+<!-- TokenUpgradeable.unpause -->
+<g id="node3" class="node" pointer-events="visible" data-name="TokenUpgradeable.unpause">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="102.1" cy="-524.36" rx="42.86" ry="18" style=""/>
+<text text-anchor="middle" x="102.1" y="-520.16" font-family="Times,serif" font-size="14.00" style="">unpause</text>
+</g>
+<!-- Blacklistable._unpause -->
+<g id="node40" class="node" pointer-events="visible" data-name="Blacklistable._unpause">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="351.61" cy="-169.36" rx="47.52" ry="18" style=""/>
+<text text-anchor="middle" x="351.61" y="-165.16" font-family="Times,serif" font-size="14.00" style="">_unpause</text>
+</g>
+<!-- TokenUpgradeable.unpause&#45;&gt;Blacklistable._unpause -->
+<g id="edge9" class="edge" data-name="TokenUpgradeable.unpause-&gt;Blacklistable._unpause">
+
+<path fill="none" stroke="white" stroke-width="2" d="M145.28,-520.55C161.02,-516.95 177.63,-510.13 188.2,-497.36 274.1,-393.56 133.38,-295.88 224.2,-196.36 240.79,-178.17 266.37,-170.62 290.19,-167.92" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="290.47,-171.4 300.16,-167.12 289.92,-164.43 290.47,-171.4" style=""/>
+</g>
+<!-- TokenUpgradeable.PauserChanged -->
+<g id="node26" class="node" pointer-events="visible" data-name="TokenUpgradeable.PauserChanged">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="639.25" cy="-922.36" rx="71.22" ry="18" style=""/>
+<text text-anchor="middle" x="639.25" y="-918.16" font-family="Times,serif" font-size="14.00" style="">PauserChanged</text>
+</g>
+<!-- TokenUpgradeable.updatePauser&#45;&gt;TokenUpgradeable.PauserChanged -->
+<g id="edge10" class="edge" data-name="TokenUpgradeable.updatePauser-&gt;TokenUpgradeable.PauserChanged">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M414.26,-817.95C436.18,-821.6 460.09,-828.5 479.03,-841.36 502.89,-857.56 491.21,-879.09 515.03,-895.36 527.53,-903.9 542.27,-909.79 557.12,-913.85" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="556.09,-917.2 566.64,-916.14 557.73,-910.4 556.09,-917.2" style=""/>
+</g>
+<!-- TokenUpgradeable.BlacklisterChanged -->
+<g id="node27" class="node" pointer-events="visible" data-name="TokenUpgradeable.BlacklisterChanged">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="639.25" cy="-1030.36" rx="87.4" ry="18" style=""/>
+<text text-anchor="middle" x="639.25" y="-1026.16" font-family="Times,serif" font-size="14.00" style="">BlacklisterChanged</text>
+</g>
+<!-- TokenUpgradeable.updateBlacklister&#45;&gt;TokenUpgradeable.BlacklisterChanged -->
+<g id="edge11" class="edge" data-name="TokenUpgradeable.updateBlacklister-&gt;TokenUpgradeable.BlacklisterChanged">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M415.3,-988.21C457.54,-996.19 513.6,-1006.79 558.95,-1015.36" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="558.28,-1018.8 568.76,-1017.22 559.58,-1011.92 558.28,-1018.8" style=""/>
+</g>
+<!-- TokenUpgradeable._setBlacklistState -->
+<g id="node8" class="node" pointer-events="visible" data-name="TokenUpgradeable._setBlacklistState">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="639.25" cy="-976.36" rx="80.47" ry="18" style=""/>
+<text text-anchor="middle" x="639.25" y="-972.16" font-family="Times,serif" font-size="14.00" style="">_setBlacklistState</text>
+</g>
+<!-- TokenUpgradeable._blacklist&#45;&gt;TokenUpgradeable._setBlacklistState -->
+<g id="edge12" class="edge" data-name="TokenUpgradeable._blacklist-&gt;TokenUpgradeable._setBlacklistState">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M396.62,-930.68C440.64,-939 509.23,-951.96 562.1,-961.96" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="561.38,-965.39 571.86,-963.81 562.68,-958.51 561.38,-965.39" style=""/>
+</g>
+<!-- TokenUpgradeable._unBlacklist -->
+<g id="node7" class="node" pointer-events="visible" data-name="TokenUpgradeable._unBlacklist">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="351.61" cy="-868.36" rx="59.71" ry="18" style=""/>
+<text text-anchor="middle" x="351.61" y="-864.16" font-family="Times,serif" font-size="14.00" style="">_unBlacklist</text>
+</g>
+<!-- TokenUpgradeable._unBlacklist&#45;&gt;TokenUpgradeable._setBlacklistState -->
+<g id="edge13" class="edge" data-name="TokenUpgradeable._unBlacklist-&gt;TokenUpgradeable._setBlacklistState">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M411.69,-871.54C434.29,-875.06 459.35,-881.99 479.03,-895.36 502.89,-911.56 491.21,-933.09 515.03,-949.36 525.61,-956.58 537.79,-961.92 550.28,-965.84" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="549.34,-969.22 559.92,-968.51 551.21,-962.47 549.34,-969.22" style=""/>
+</g>
+<!-- TokenUpgradeable._setBlacklistState&#45;&gt;TokenUpgradeable.balanceOf -->
+<g id="edge14" class="edge" data-name="TokenUpgradeable._setBlacklistState-&gt;TokenUpgradeable.balanceOf">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M715.24,-969.26C732.1,-965.21 749.2,-958.96 763.46,-949.36 822.23,-909.79 861.99,-833.87 880.76,-791.28" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="883.91,-792.81 884.62,-782.24 877.48,-790.06 883.91,-792.81" style=""/>
+</g>
+<!-- TokenUpgradeable._setBalance -->
+<g id="node9" class="node" pointer-events="visible" data-name="TokenUpgradeable._setBalance">
+
+<ellipse fill="#f2c383" stroke="#f2c383" stroke-width="3" cx="102.1" cy="-902.36" rx="57.88" ry="18" style=""/>
+<text text-anchor="middle" x="102.1" y="-898.16" font-family="Times,serif" font-size="14.00" style="">_setBalance</text>
+</g>
+<!-- TokenUpgradeable._isBlacklisted -->
+<g id="node10" class="node" pointer-events="visible" data-name="TokenUpgradeable._isBlacklisted">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="351.61" cy="-740.36" rx="65.51" ry="18" style=""/>
+<text text-anchor="middle" x="351.61" y="-736.16" font-family="Times,serif" font-size="14.00" style="">_isBlacklisted</text>
+</g>
+<!-- TokenUpgradeable._setBalance&#45;&gt;TokenUpgradeable._isBlacklisted -->
+<g id="edge15" class="edge" data-name="TokenUpgradeable._setBalance-&gt;TokenUpgradeable._isBlacklisted">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M155.41,-894.02C167.37,-890.02 179.19,-884.1 188.2,-875.36 222.98,-841.57 188.43,-805.1 224.2,-772.36 237.9,-759.81 255.81,-752.02 273.82,-747.23" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="274.34,-750.7 283.3,-745.04 272.77,-743.88 274.34,-750.7" style=""/>
+</g>
+<!-- TokenUpgradeable.increaseAllowance -->
+<g id="node11" class="node" pointer-events="visible" data-name="TokenUpgradeable.increaseAllowance">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="102.1" cy="-686.36" rx="84.49" ry="18" style=""/>
+<text text-anchor="middle" x="102.1" y="-682.16" font-family="Times,serif" font-size="14.00" style="">increaseAllowance</text>
+</g>
+<!-- Blacklistable.increaseAllowance -->
+<g id="node41" class="node" pointer-events="visible" data-name="Blacklistable.increaseAllowance">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="351.61" cy="-277.36" rx="84.49" ry="18" style=""/>
+<text text-anchor="middle" x="351.61" y="-273.16" font-family="Times,serif" font-size="14.00" style="">increaseAllowance</text>
+</g>
+<!-- TokenUpgradeable.increaseAllowance&#45;&gt;Blacklistable.increaseAllowance -->
+<g id="edge16" class="edge" data-name="TokenUpgradeable.increaseAllowance-&gt;Blacklistable.increaseAllowance">
+
+<path fill="none" stroke="white" stroke-width="2" d="M168.99,-674.38C176.34,-670.63 183.02,-665.73 188.2,-659.36 238.2,-597.82 171.28,-363.41 224.2,-304.36 232.43,-295.18 242.94,-288.69 254.38,-284.17" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="255.32,-287.55 263.71,-281.09 253.12,-280.9 255.32,-287.55" style=""/>
+</g>
+<!-- TokenUpgradeable.decreaseAllowance -->
+<g id="node12" class="node" pointer-events="visible" data-name="TokenUpgradeable.decreaseAllowance">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="102.1" cy="-578.36" rx="86.2" ry="18" style=""/>
+<text text-anchor="middle" x="102.1" y="-574.16" font-family="Times,serif" font-size="14.00" style="">decreaseAllowance</text>
+</g>
+<!-- Blacklistable.decreaseAllowance -->
+<g id="node42" class="node" pointer-events="visible" data-name="Blacklistable.decreaseAllowance">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="351.61" cy="-223.36" rx="86.2" ry="18" style=""/>
+<text text-anchor="middle" x="351.61" y="-219.16" font-family="Times,serif" font-size="14.00" style="">decreaseAllowance</text>
+</g>
+<!-- TokenUpgradeable.decreaseAllowance&#45;&gt;Blacklistable.decreaseAllowance -->
+<g id="edge17" class="edge" data-name="TokenUpgradeable.decreaseAllowance-&gt;Blacklistable.decreaseAllowance">
+
+<path fill="none" stroke="white" stroke-width="2" d="M169.3,-566.08C176.5,-562.37 183.06,-557.57 188.2,-551.36 274.1,-447.56 133.38,-349.88 224.2,-250.36 232.2,-241.59 242.28,-235.29 253.26,-230.82" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="254.26,-234.18 262.59,-227.63 251.99,-227.55 254.26,-234.18" style=""/>
+</g>
+<!-- TokenUpgradeable.updateRescuer -->
+<g id="node13" class="node" pointer-events="visible" data-name="TokenUpgradeable.updateRescuer">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="102.1" cy="-848.36" rx="67.76" ry="18" style=""/>
+<text text-anchor="middle" x="102.1" y="-844.16" font-family="Times,serif" font-size="14.00" style="">updateRescuer</text>
+</g>
+<!-- TokenUpgradeable.RescuerChanged -->
+<g id="node28" class="node" pointer-events="visible" data-name="TokenUpgradeable.RescuerChanged">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="351.61" cy="-686.36" rx="76.43" ry="18" style=""/>
+<text text-anchor="middle" x="351.61" y="-682.16" font-family="Times,serif" font-size="14.00" style="">RescuerChanged</text>
+</g>
+<!-- TokenUpgradeable.updateRescuer&#45;&gt;TokenUpgradeable.RescuerChanged -->
+<g id="edge18" class="edge" data-name="TokenUpgradeable.updateRescuer-&gt;TokenUpgradeable.RescuerChanged">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M160.79,-838.2C170.89,-834.29 180.58,-828.86 188.2,-821.36 224.23,-785.84 186.49,-747.09 224.2,-713.36 235,-703.69 248.4,-697.19 262.39,-692.86" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="263.09,-696.3 271.87,-690.37 261.31,-689.53 263.09,-696.3" style=""/>
+</g>
+<!-- TokenUpgradeable.configureMinter -->
+<g id="node14" class="node" pointer-events="visible" data-name="TokenUpgradeable.configureMinter">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="102.1" cy="-794.36" rx="74.14" ry="18" style=""/>
+<text text-anchor="middle" x="102.1" y="-790.16" font-family="Times,serif" font-size="14.00" style="">configureMinter</text>
+</g>
+<!-- TokenUpgradeable.MinterConfigured -->
+<g id="node29" class="node" pointer-events="visible" data-name="TokenUpgradeable.MinterConfigured">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="351.61" cy="-632.36" rx="81.11" ry="18" style=""/>
+<text text-anchor="middle" x="351.61" y="-628.16" font-family="Times,serif" font-size="14.00" style="">MinterConfigured</text>
+</g>
+<!-- TokenUpgradeable.configureMinter&#45;&gt;TokenUpgradeable.MinterConfigured -->
+<g id="edge19" class="edge" data-name="TokenUpgradeable.configureMinter-&gt;TokenUpgradeable.MinterConfigured">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M163.42,-783.14C172.56,-779.33 181.24,-774.21 188.2,-767.36 224.23,-731.84 186.49,-693.09 224.2,-659.36 234.09,-650.51 246.15,-644.31 258.85,-640.01" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="259.64,-643.42 268.27,-637.28 257.69,-636.7 259.64,-643.42" style=""/>
+</g>
+<!-- TokenUpgradeable.MasterMinterChanged -->
+<g id="node30" class="node" pointer-events="visible" data-name="TokenUpgradeable.MasterMinterChanged">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="639.25" cy="-1084.36" rx="98.43" ry="18" style=""/>
+<text text-anchor="middle" x="639.25" y="-1080.16" font-family="Times,serif" font-size="14.00" style="">MasterMinterChanged</text>
+</g>
+<!-- TokenUpgradeable.updateMasterMinter&#45;&gt;TokenUpgradeable.MasterMinterChanged -->
+<g id="edge20" class="edge" data-name="TokenUpgradeable.updateMasterMinter-&gt;TokenUpgradeable.MasterMinterChanged">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M442.6,-1084.36C469.33,-1084.36 498.93,-1084.36 526.85,-1084.36" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="526.52,-1087.86 536.52,-1084.36 526.52,-1080.86 526.52,-1087.86" style=""/>
+</g>
+<!-- TokenUpgradeable.setParams -->
+<g id="node16" class="node" pointer-events="visible" data-name="TokenUpgradeable.setParams">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="102.1" cy="-632.36" rx="50.39" ry="18" style=""/>
+<text text-anchor="middle" x="102.1" y="-628.16" font-family="Times,serif" font-size="14.00" style="">setParams</text>
+</g>
+<!-- TokenUpgradeable.Params -->
+<g id="node31" class="node" pointer-events="visible" data-name="TokenUpgradeable.Params">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="351.61" cy="-578.36" rx="39.43" ry="18" style=""/>
+<text text-anchor="middle" x="351.61" y="-574.16" font-family="Times,serif" font-size="14.00" style="">Params</text>
+</g>
+<!-- TokenUpgradeable.setParams&#45;&gt;TokenUpgradeable.Params -->
+<g id="edge22" class="edge" data-name="TokenUpgradeable.setParams-&gt;TokenUpgradeable.Params">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M146.8,-622.51C169.82,-617.35 198.52,-610.96 224.2,-605.36 249.73,-599.78 278.19,-593.7 301.63,-588.71" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="302.07,-592.2 311.12,-586.7 300.61,-585.35 302.07,-592.2" style=""/>
+</g>
+<!-- newMaxFee.mul -->
+<g id="node43" class="node" pointer-events="visible" data-name="newMaxFee.mul">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="351.61" cy="-84.36" rx="27" ry="18" style=""/>
+<text text-anchor="middle" x="351.61" y="-80.16" font-family="Times,serif" font-size="14.00" style="">mul</text>
+</g>
+<!-- TokenUpgradeable.setParams&#45;&gt;newMaxFee.mul -->
+<g id="edge21" class="edge" data-name="TokenUpgradeable.setParams-&gt;newMaxFee.mul">
+
+<path fill="none" stroke="white" stroke-width="2" d="M151.77,-627.2C165.56,-623.3 179.24,-616.65 188.2,-605.36 252.72,-523.97 163.95,-223.96 224.2,-139.36 244.3,-111.12 282.12,-97.23 311.17,-90.49" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="311.76,-93.94 320.84,-88.49 310.34,-87.09 311.76,-93.94" style=""/>
+</g>
+<!-- TokenUpgradeable.totalFee -->
+<g id="node17" class="node" pointer-events="visible" data-name="TokenUpgradeable.totalFee">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="102.1" cy="-470.36" rx="42.29" ry="18" style=""/>
+<text text-anchor="middle" x="102.1" y="-466.16" font-family="Times,serif" font-size="14.00" style="">totalFee</text>
+</g>
+<!-- TokenUpgradeable.calcCommonFee -->
+<g id="node18" class="node" pointer-events="visible" data-name="TokenUpgradeable.calcCommonFee">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="102.1" cy="-416.36" rx="76.44" ry="18" style=""/>
+<text text-anchor="middle" x="102.1" y="-412.16" font-family="Times,serif" font-size="14.00" style="">calcCommonFee</text>
+</g>
+<!-- _value.mul -->
+<g id="node44" class="node" pointer-events="visible" data-name="_value.mul">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="894.18" cy="-192.36" rx="27" ry="18" style=""/>
+<text text-anchor="middle" x="894.18" y="-188.16" font-family="Times,serif" font-size="14.00" style="">mul</text>
+</g>
+<!-- TokenUpgradeable.calcCommonFee&#45;&gt;_value.mul -->
+<g id="edge23" class="edge" data-name="TokenUpgradeable.calcCommonFee-&gt;_value.mul">
+
+<path fill="none" stroke="white" stroke-width="2" d="M102.51,-397.01C101.81,-334.51 109.1,-137.22 224.2,-54.36 431.32,94.76 762.97,-104.36 863.41,-171.6" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="861.23,-174.35 871.47,-177.06 865.16,-168.55 861.23,-174.35" style=""/>
+</g>
+<!-- TokenUpgradeable.calcFee -->
+<g id="node19" class="node" pointer-events="visible" data-name="TokenUpgradeable.calcFee">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="639.25" cy="-760.36" rx="40.54" ry="18" style=""/>
+<text text-anchor="middle" x="639.25" y="-756.16" font-family="Times,serif" font-size="14.00" style="">calcFee</text>
+</g>
+<!-- TokenUpgradeable.calcFee&#45;&gt;TokenUpgradeable.balanceOf -->
+<g id="edge25" class="edge" data-name="TokenUpgradeable.calcFee-&gt;TokenUpgradeable.balanceOf">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M681.17,-760.36C721.08,-760.36 782.4,-760.36 828.85,-760.36" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="828.8,-763.86 838.8,-760.36 828.8,-756.86 828.8,-763.86" style=""/>
+</g>
+<!-- TokenUpgradeable.calcFee&#45;&gt;_value.mul -->
+<g id="edge24" class="edge" data-name="TokenUpgradeable.calcFee-&gt;_value.mul">
+
+<path fill="none" stroke="white" stroke-width="2" d="M680.69,-763.14C708.36,-762.64 743.53,-756.8 763.46,-733.36 837.57,-646.22 719.28,-308.1 791.46,-219.36 806.17,-201.28 831.47,-194.51 853.15,-192.27" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="853.3,-195.77 863.04,-191.61 852.83,-188.79 853.3,-195.77" style=""/>
+</g>
+<!-- TokenUpgradeable.transferFee -->
+<g id="node20" class="node" pointer-events="visible" data-name="TokenUpgradeable.transferFee">
+
+<ellipse fill="#ff9797" stroke="#ff9797" stroke-width="3" cx="351.61" cy="-524.36" rx="54.44" ry="18" style=""/>
+<text text-anchor="middle" x="351.61" y="-520.16" font-family="Times,serif" font-size="14.00" style="">transferFee</text>
+</g>
+<!-- TokenUpgradeable.transferFee&#45;&gt;TokenUpgradeable.calcFee -->
+<g id="edge28" class="edge" data-name="TokenUpgradeable.transferFee-&gt;TokenUpgradeable.calcFee">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M407.33,-523.02C432.38,-525.34 460.52,-532.57 479.03,-551.36 536.89,-610.1 457.32,-674.46 515.03,-733.36 533.02,-751.72 560.43,-758.92 584.82,-761.33" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="584.38,-764.81 594.6,-762 584.86,-757.83 584.38,-764.81" style=""/>
+</g>
+<!-- TokenUpgradeable.transferFee&#45;&gt;TokenUpgradeable._transfer -->
+<g id="edge26" class="edge" data-name="TokenUpgradeable.transferFee-&gt;TokenUpgradeable._transfer">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M382.77,-508.18C411.72,-503.26 454.55,-507.39 479.03,-533.36 551.81,-610.56 442.46,-691.96 515.03,-769.36 534.06,-789.65 564.54,-796.45 590.43,-800.35" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="589.69,-803.78 600.08,-801.71 590.67,-796.85 589.69,-803.78" style=""/>
+</g>
+<!-- TokenUpgradeable.transferFee&#45;&gt;TokenUpgradeable._transfer -->
+<g id="edge30" class="edge" data-name="TokenUpgradeable.transferFee-&gt;TokenUpgradeable._transfer">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M407.06,-522.61C432.35,-524.78 460.79,-532 479.03,-551.36 551.81,-628.56 442.46,-709.96 515.03,-787.36 531.59,-805.01 556.82,-812.46 580.14,-815.21" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="579.56,-818.68 589.82,-816.04 580.16,-811.7 579.56,-818.68" style=""/>
+</g>
+<!-- TokenUpgradeable.transferFee&#45;&gt;TokenUpgradeable._transfer -->
+<g id="edge32" class="edge" data-name="TokenUpgradeable.transferFee-&gt;TokenUpgradeable._transfer">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M393.98,-536.98C421.95,-540.6 457.55,-546.58 479.03,-569.36 551.81,-646.56 442.46,-727.96 515.03,-805.36 536.08,-827.8 571.14,-833.74 598.49,-831.56" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="598.75,-835.05 608.2,-830.27 597.83,-828.12 598.75,-835.05" style=""/>
+</g>
+<!-- TokenUpgradeable.TransferFee -->
+<g id="node32" class="node" pointer-events="visible" data-name="TokenUpgradeable.TransferFee">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="639.25" cy="-868.36" rx="57.87" ry="18" style=""/>
+<text text-anchor="middle" x="639.25" y="-864.16" font-family="Times,serif" font-size="14.00" style="">TransferFee</text>
+</g>
+<!-- TokenUpgradeable.transferFee&#45;&gt;TokenUpgradeable.TransferFee -->
+<g id="edge27" class="edge" data-name="TokenUpgradeable.transferFee-&gt;TokenUpgradeable.TransferFee">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M382.38,-508.13C411.45,-502.96 454.77,-506.89 479.03,-533.36 566.79,-629.1 427.52,-727.38 515.03,-823.36 531.98,-841.94 558.52,-849.29 582.64,-853.36" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="581.93,-856.79 592.34,-854.83 582.98,-849.87 581.93,-856.79" style=""/>
+</g>
+<!-- TokenUpgradeable.transferFee&#45;&gt;TokenUpgradeable.TransferFee -->
+<g id="edge31" class="edge" data-name="TokenUpgradeable.transferFee-&gt;TokenUpgradeable.TransferFee">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M406.97,-522.36C432.4,-524.45 460.98,-531.67 479.03,-551.36 566.79,-647.1 427.52,-745.38 515.03,-841.36 528.46,-856.09 547.93,-863.76 567.44,-867.53" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="566.79,-870.97 577.21,-869.01 567.85,-864.05 566.79,-870.97" style=""/>
+</g>
+<!-- TokenUpgradeable.transferFee&#45;&gt;TokenUpgradeable.TransferFee -->
+<g id="edge33" class="edge" data-name="TokenUpgradeable.transferFee-&gt;TokenUpgradeable.TransferFee">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M394.48,-536.83C422.49,-540.38 457.95,-546.36 479.03,-569.36 566.79,-665.1 427.52,-763.38 515.03,-859.36 534.72,-880.95 567.37,-887.37 594.11,-886.01" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="594.46,-889.5 604.06,-885 593.75,-882.53 594.46,-889.5" style=""/>
+</g>
+<!-- _value.sub -->
+<g id="node45" class="node" pointer-events="visible" data-name="_value.sub">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="894.18" cy="-246.36" rx="27" ry="18" style=""/>
+<text text-anchor="middle" x="894.18" y="-242.16" font-family="Times,serif" font-size="14.00" style="">sub</text>
+</g>
+<!-- TokenUpgradeable.transferFee&#45;&gt;_value.sub -->
+<g id="edge29" class="edge" data-name="TokenUpgradeable.transferFee-&gt;_value.sub">
+
+<path fill="none" stroke="white" stroke-width="2" d="M407.27,-524.53C431.85,-521.88 459.63,-514.71 479.03,-497.36 516.74,-463.63 479.97,-425.84 515.03,-389.36 609.08,-291.49 776.84,-259.88 853.27,-250.27" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="853.48,-253.77 863,-249.12 852.66,-246.82 853.48,-253.77" style=""/>
+</g>
+<!-- TokenUpgradeable.transferWithAuthorizationFee -->
+<g id="node21" class="node" pointer-events="visible" data-name="TokenUpgradeable.transferWithAuthorizationFee">
+
+<ellipse fill="#ffbdb9" stroke="#ffbdb9" stroke-width="3" cx="351.61" cy="-470.36" rx="127.33" ry="18" style=""/>
+<text text-anchor="middle" x="351.61" y="-466.16" font-family="Times,serif" font-size="14.00" style="">transferWithAuthorizationFee</text>
+</g>
+<!-- TokenUpgradeable.transferWithAuthorizationFee&#45;&gt;TokenUpgradeable.calcFee -->
+<g id="edge35" class="edge" data-name="TokenUpgradeable.transferWithAuthorizationFee-&gt;TokenUpgradeable.calcFee">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M467.63,-478.6C471.73,-481.44 475.57,-484.68 479.03,-488.36 551.81,-565.56 442.46,-646.96 515.03,-724.36 533.08,-743.61 561.43,-750.72 586.4,-753.79" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="585.76,-757.24 596.06,-754.77 586.46,-750.28 585.76,-757.24" style=""/>
+</g>
+<!-- TokenUpgradeable.transferWithAuthorizationFee&#45;&gt;TokenUpgradeable.calcFee -->
+<g id="edge44" class="edge" data-name="TokenUpgradeable.transferWithAuthorizationFee-&gt;TokenUpgradeable.calcFee">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M442.01,-484.14C455.95,-488.78 469.02,-495.74 479.03,-506.36 551.81,-583.56 442.46,-664.96 515.03,-742.36 533.91,-762.49 564.06,-769.34 589.81,-770.04" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="589.81,-773.54 599.77,-769.92 589.73,-766.54 589.81,-773.54" style=""/>
+</g>
+<!-- TokenUpgradeable._requireValidSignature -->
+<g id="node22" class="node" pointer-events="visible" data-name="TokenUpgradeable._requireValidSignature">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="639.25" cy="-524.36" rx="101.85" ry="18" style=""/>
+<text text-anchor="middle" x="639.25" y="-520.16" font-family="Times,serif" font-size="14.00" style="">_requireValidSignature</text>
+</g>
+<!-- TokenUpgradeable.transferWithAuthorizationFee&#45;&gt;TokenUpgradeable._requireValidSignature -->
+<g id="edge38" class="edge" data-name="TokenUpgradeable.transferWithAuthorizationFee-&gt;TokenUpgradeable._requireValidSignature">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M451.71,-482.63C490.46,-489.43 533.96,-497.85 569.2,-505.43" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="568.31,-508.81 578.82,-507.53 569.8,-501.98 568.31,-508.81" style=""/>
+</g>
+<!-- TokenUpgradeable.transferWithAuthorizationFee&#45;&gt;TokenUpgradeable._requireValidSignature -->
+<g id="edge47" class="edge" data-name="TokenUpgradeable.transferWithAuthorizationFee-&gt;TokenUpgradeable._requireValidSignature">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M413.19,-487.44C449.55,-495.43 496.7,-504.62 538.44,-511.96" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="537.77,-515.39 548.22,-513.65 538.96,-508.5 537.77,-515.39" style=""/>
+</g>
+<!-- TokenUpgradeable.transferWithAuthorizationFee&#45;&gt;TokenUpgradeable.balanceOf -->
+<g id="edge36" class="edge" data-name="TokenUpgradeable.transferWithAuthorizationFee-&gt;TokenUpgradeable.balanceOf">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M466.3,-479.02C470.82,-481.74 475.1,-484.84 479.03,-488.36 516.74,-522.09 475.2,-565.15 515.03,-596.36 558.62,-630.52 713.42,-592.62 763.46,-616.36 815.44,-641.01 857.55,-696.1 878.6,-730.74" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="875.35,-732.11 883.39,-739 881.4,-728.6 875.35,-732.11" style=""/>
+</g>
+<!-- TokenUpgradeable.transferWithAuthorizationFee&#45;&gt;TokenUpgradeable.balanceOf -->
+<g id="edge45" class="edge" data-name="TokenUpgradeable.transferWithAuthorizationFee-&gt;TokenUpgradeable.balanceOf">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M437.95,-484.83C452.98,-489.31 467.49,-496.03 479.03,-506.36 516.74,-540.09 475.2,-583.15 515.03,-614.36 558.62,-648.52 713.42,-610.62 763.46,-634.36 809.5,-656.19 847.79,-701.9 870.57,-731.99" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="867.65,-733.94 876.43,-739.87 873.27,-729.76 867.65,-733.94" style=""/>
+</g>
+<!-- TokenUpgradeable.transferWithAuthorizationFee&#45;&gt;TokenUpgradeable._transfer -->
+<g id="edge39" class="edge" data-name="TokenUpgradeable.transferWithAuthorizationFee-&gt;TokenUpgradeable._transfer">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M480.05,-471.48C565.71,-566.86 427.86,-664.76 515.03,-760.36 536.94,-784.38 574.88,-789.62 602.89,-795.05" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="601.88,-798.41 612.39,-797.09 603.35,-791.57 601.88,-798.41" style=""/>
+</g>
+<!-- TokenUpgradeable.transferWithAuthorizationFee&#45;&gt;TokenUpgradeable._transfer -->
+<g id="edge41" class="edge" data-name="TokenUpgradeable.transferWithAuthorizationFee-&gt;TokenUpgradeable._transfer">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M468.03,-478.68C472,-481.5 475.69,-484.72 479.03,-488.36 566.79,-584.1 427.52,-682.38 515.03,-778.36 531.71,-796.65 557.69,-804.05 581.5,-807.39" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="581.1,-810.87 591.43,-808.53 581.89,-803.91 581.1,-810.87" style=""/>
+</g>
+<!-- TokenUpgradeable.transferWithAuthorizationFee&#45;&gt;TokenUpgradeable._transfer -->
+<g id="edge48" class="edge" data-name="TokenUpgradeable.transferWithAuthorizationFee-&gt;TokenUpgradeable._transfer">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M442.58,-484.02C456.37,-488.68 469.25,-495.69 479.03,-506.36 566.79,-602.1 427.52,-700.38 515.03,-796.36 532.87,-815.92 561.35,-823.03 586.44,-824.13" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="586.13,-827.63 596.14,-824.18 586.16,-820.63 586.13,-827.63" style=""/>
+</g>
+<!-- TokenUpgradeable.transferWithAuthorizationFee&#45;&gt;TokenUpgradeable._transfer -->
+<g id="edge50" class="edge" data-name="TokenUpgradeable.transferWithAuthorizationFee-&gt;TokenUpgradeable._transfer">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M387.13,-489.06C416,-494.44 456.05,-499.29 479.03,-524.36 566.79,-620.1 427.52,-718.38 515.03,-814.36 538.98,-840.62 582.08,-844.43 610.43,-836.83" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="611.6,-840.13 619.81,-833.43 609.22,-833.55 611.6,-840.13" style=""/>
+</g>
+<!-- TokenUpgradeable.TransferAuthStruct -->
+<g id="node33" class="node" pointer-events="visible" data-name="TokenUpgradeable.TransferAuthStruct">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="639.25" cy="-578.36" rx="86.25" ry="18" style=""/>
+<text text-anchor="middle" x="639.25" y="-574.16" font-family="Times,serif" font-size="14.00" style="">TransferAuthStruct</text>
+</g>
+<!-- TokenUpgradeable.transferWithAuthorizationFee&#45;&gt;TokenUpgradeable.TransferAuthStruct -->
+<g id="edge34" class="edge" data-name="TokenUpgradeable.transferWithAuthorizationFee-&gt;TokenUpgradeable.TransferAuthStruct">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M449.71,-482.88C460.1,-486.57 470.12,-491.3 479.03,-497.36 502.89,-513.56 491.21,-535.09 515.03,-551.36 524.66,-557.93 535.61,-562.94 546.92,-566.75" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="545.8,-570.07 556.39,-569.57 547.8,-563.36 545.8,-570.07" style=""/>
+</g>
+<!-- TokenUpgradeable._requireValidAuthorization -->
+<g id="node34" class="node" pointer-events="visible" data-name="TokenUpgradeable._requireValidAuthorization">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="639.25" cy="-652.36" rx="118.1" ry="18" style=""/>
+<text text-anchor="middle" x="639.25" y="-648.16" font-family="Times,serif" font-size="14.00" style="">_requireValidAuthorization</text>
+</g>
+<!-- TokenUpgradeable.transferWithAuthorizationFee&#45;&gt;TokenUpgradeable._requireValidAuthorization -->
+<g id="edge37" class="edge" data-name="TokenUpgradeable.transferWithAuthorizationFee-&gt;TokenUpgradeable._requireValidAuthorization">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M466.75,-479.02C471.12,-481.75 475.25,-484.84 479.03,-488.36 520.77,-527.11 474.14,-571.7 515.03,-611.36 525.34,-621.35 538.35,-628.34 552.03,-633.34" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="550.7,-636.59 561.29,-636.32 552.84,-629.93 550.7,-636.59" style=""/>
+</g>
+<!-- TokenUpgradeable.transferWithAuthorizationFee&#45;&gt;TokenUpgradeable._requireValidAuthorization -->
+<g id="edge46" class="edge" data-name="TokenUpgradeable.transferWithAuthorizationFee-&gt;TokenUpgradeable._requireValidAuthorization">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M438.91,-484.69C453.68,-489.2 467.84,-495.97 479.03,-506.36 520.77,-545.11 474.14,-589.7 515.03,-629.36 517.58,-631.83 520.3,-634.12 523.15,-636.24" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="521.15,-639.11 531.46,-641.54 524.91,-633.21 521.15,-639.11" style=""/>
+</g>
+<!-- TokenUpgradeable.TransferWithSign -->
+<g id="node35" class="node" pointer-events="visible" data-name="TokenUpgradeable.TransferWithSign">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="639.25" cy="-706.36" rx="80.52" ry="18" style=""/>
+<text text-anchor="middle" x="639.25" y="-702.16" font-family="Times,serif" font-size="14.00" style="">TransferWithSign</text>
+</g>
+<!-- TokenUpgradeable.transferWithAuthorizationFee&#45;&gt;TokenUpgradeable.TransferWithSign -->
+<g id="edge40" class="edge" data-name="TokenUpgradeable.transferWithAuthorizationFee-&gt;TokenUpgradeable.TransferWithSign">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M467.43,-478.79C471.59,-481.59 475.49,-484.76 479.03,-488.36 536.89,-547.1 457.32,-611.46 515.03,-670.36 526.15,-681.71 540.88,-688.8 556.27,-693.33" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="555.2,-696.67 565.76,-695.71 556.91,-689.88 555.2,-696.67" style=""/>
+</g>
+<!-- TokenUpgradeable.transferWithAuthorizationFee&#45;&gt;TokenUpgradeable.TransferWithSign -->
+<g id="edge42" class="edge" data-name="TokenUpgradeable.transferWithAuthorizationFee-&gt;TokenUpgradeable.TransferWithSign">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M440.98,-484.31C455.2,-488.9 468.63,-495.8 479.03,-506.36 536.89,-565.1 457.32,-629.46 515.03,-688.36 524.32,-697.84 536.12,-704.35 548.72,-708.63" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="547.5,-711.93 558.08,-711.27 549.4,-705.19 547.5,-711.93" style=""/>
+</g>
+<!-- TokenUpgradeable.TransferWithAuthStructRSV -->
+<g id="node36" class="node" pointer-events="visible" data-name="TokenUpgradeable.TransferWithAuthStructRSV">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="639.25" cy="-416.36" rx="124.44" ry="18" style=""/>
+<text text-anchor="middle" x="639.25" y="-412.16" font-family="Times,serif" font-size="14.00" style="">TransferWithAuthStructRSV</text>
+</g>
+<!-- TokenUpgradeable.transferWithAuthorizationFee&#45;&gt;TokenUpgradeable.TransferWithAuthStructRSV -->
+<g id="edge43" class="edge" data-name="TokenUpgradeable.transferWithAuthorizationFee-&gt;TokenUpgradeable.TransferWithAuthStructRSV">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M432.56,-455.24C467.99,-448.54 509.87,-440.63 546.57,-433.69" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="547.16,-437.14 556.34,-431.84 545.86,-430.26 547.16,-437.14" style=""/>
+</g>
+<!-- TokenUpgradeable.TransferWithRSV -->
+<g id="node37" class="node" pointer-events="visible" data-name="TokenUpgradeable.TransferWithRSV">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="639.25" cy="-470.36" rx="81.67" ry="18" style=""/>
+<text text-anchor="middle" x="639.25" y="-466.16" font-family="Times,serif" font-size="14.00" style="">TransferWithRSV</text>
+</g>
+<!-- TokenUpgradeable.transferWithAuthorizationFee&#45;&gt;TokenUpgradeable.TransferWithRSV -->
+<g id="edge49" class="edge" data-name="TokenUpgradeable.transferWithAuthorizationFee-&gt;TokenUpgradeable.TransferWithRSV">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M472.51,-463.68C497.63,-463.51 523.72,-463.63 547.56,-464.02" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="547.46,-467.52 557.53,-464.22 547.6,-460.52 547.46,-467.52" style=""/>
+</g>
+<!-- TokenUpgradeable.transferWithAuthorizationFee&#45;&gt;TokenUpgradeable.TransferWithRSV -->
+<g id="edge51" class="edge" data-name="TokenUpgradeable.transferWithAuthorizationFee-&gt;TokenUpgradeable.TransferWithRSV">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M472.51,-477.03C497.63,-477.2 523.72,-477.09 547.56,-476.69" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="547.6,-480.19 557.53,-476.5 547.46,-473.19 547.6,-480.19" style=""/>
+</g>
+<!-- TokenUpgradeable._hashTypedDataV4 -->
+<g id="node38" class="node" pointer-events="visible" data-name="TokenUpgradeable._hashTypedDataV4">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="894.18" cy="-524.36" rx="88.04" ry="18" style=""/>
+<text text-anchor="middle" x="894.18" y="-520.16" font-family="Times,serif" font-size="14.00" style="">_hashTypedDataV4</text>
+</g>
+<!-- TokenUpgradeable._requireValidSignature&#45;&gt;TokenUpgradeable._hashTypedDataV4 -->
+<g id="edge53" class="edge" data-name="TokenUpgradeable._requireValidSignature-&gt;TokenUpgradeable._hashTypedDataV4">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M742.4,-524.36C758.73,-524.36 775.63,-524.36 791.95,-524.36" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="791.86,-527.86 801.86,-524.36 791.86,-520.86 791.86,-527.86" style=""/>
+</g>
+<!-- SignatureChecker.isValidSignatureNow -->
+<g id="node46" class="node" pointer-events="visible" data-name="SignatureChecker.isValidSignatureNow">
+
+<ellipse fill="#edad56" stroke="#edad56" stroke-width="3" cx="894.18" cy="-331.36" rx="94.94" ry="18" style=""/>
+<text text-anchor="middle" x="894.18" y="-327.16" font-family="Times,serif" font-size="14.00" style="">isValidSignatureNow</text>
+</g>
+<!-- TokenUpgradeable._requireValidSignature&#45;&gt;SignatureChecker.isValidSignatureNow -->
+<g id="edge52" class="edge" data-name="TokenUpgradeable._requireValidSignature-&gt;SignatureChecker.isValidSignatureNow">
+
+<path fill="none" stroke="white" stroke-width="2" d="M732.54,-516.18C744,-511.87 754.74,-505.81 763.46,-497.36 800,-461.95 760.23,-426.52 791.46,-386.36 802.12,-372.66 817.18,-361.94 832.46,-353.75" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="833.99,-356.89 841.4,-349.31 830.89,-350.62 833.99,-356.89" style=""/>
+</g>
+<!-- key -->
+<g id="node47" class="node" pointer-events="visible" data-name="key">
+
+<polygon fill="#edad56" stroke="none" stroke-width="3" points="167.1,-1259.36 37.1,-1259.36 37.1,-1171.36 167.1,-1171.36 167.1,-1259.36" style=""/>
+<text text-anchor="start" x="86.74" y="-1240.76" font-family="Times,serif" font-size="14.00" style="">Internal Call</text>
+<text text-anchor="start" x="82.85" y="-1220.76" font-family="Times,serif" font-size="14.00" style="">External Call</text>
+<text text-anchor="start" x="60.3" y="-1200.76" font-family="Times,serif" font-size="14.00" style="">Defined Contract</text>
+<text text-anchor="start" x="46.7" y="-1180.76" font-family="Times,serif" font-size="14.00" style="">Undefined Contract</text>
+</g>
+<!-- key2 -->
+<g id="node48" class="node" pointer-events="visible" data-name="key2">
+
+<polygon fill="#edad56" stroke="none" stroke-width="3" points="378.61,-1259.36 324.61,-1259.36 324.61,-1171.36 378.61,-1171.36 378.61,-1259.36" style=""/>
+<text text-anchor="start" x="341.61" y="-1240.76" font-family="Times,serif" font-size="14.00" style="">   </text>
+<text text-anchor="start" x="341.61" y="-1220.76" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="#445773" stroke="none" points="339.61,-1195.36 339.61,-1215.36 364.61,-1215.36 364.61,-1195.36 339.61,-1195.36" style=""/>
+<text text-anchor="start" x="341.61" y="-1200.76" font-family="Times,serif" font-size="14.00" style="">   </text>
+<polygon fill="none" stroke="#e8726d" points="341.61,-1177.36 341.61,-1193.36 362.61,-1193.36 362.61,-1177.36 341.61,-1177.36" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge54" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="#1bc6a6" stroke-width="2" d="M160.1,-1245.36C234.95,-1245.36 256.84,-1245.36 325.68,-1245.36" style=""/>
+<polygon fill="#1bc6a6" stroke="#1bc6a6" stroke-width="2" points="325.59,-1248.86 335.59,-1245.36 325.59,-1241.86 325.59,-1248.86" style=""/>
+</g>
+<!-- key&#45;&gt;key2 -->
+<g id="edge55" class="edge" data-name="key-&gt;key2">
+
+<path fill="none" stroke="white" stroke-width="2" d="M160.1,-1225.36C234.95,-1225.36 256.84,-1225.36 325.68,-1225.36" style=""/>
+<polygon fill="white" stroke="white" stroke-width="2" points="325.59,-1228.86 335.59,-1225.36 325.59,-1221.86 325.59,-1228.86" style=""/>
+</g>
+</g>
+</svg>

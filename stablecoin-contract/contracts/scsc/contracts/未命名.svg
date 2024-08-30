@@ -1,0 +1,61 @@
+<?xml version="1.0" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="905pt" height="116pt" viewBox="0.00 0.00 905.03 116.00">
+<g id="graph0" class="graph" transform="translate(-1190.1891670790915,32.577656649202524) scale(2.400368021827381)" data-name="G">
+
+<polygon fill="white" stroke="none" points="-4,4 -4,-112 901.03,-112 901.03,4 -4,4" style=""/>
+<!-- TokenBaseUpgradeable -->
+<g id="node1" class="node" pointer-events="visible" data-name="TokenBaseUpgradeable">
+
+<ellipse fill="none" stroke="black" cx="437.81" cy="-90" rx="103.62" ry="18" style=""/>
+<text text-anchor="middle" x="437.81" y="-85.8" font-family="Times,serif" font-size="14.00" style="">TokenBaseUpgradeable</text>
+</g>
+<!-- ERC20Upgradeable -->
+<g id="node2" class="node" pointer-events="visible" data-name="ERC20Upgradeable">
+
+<ellipse fill="none" stroke="black" cx="88.81" cy="-18" rx="88.61" ry="18" style=""/>
+<text text-anchor="middle" x="88.81" y="-13.8" font-family="Times,serif" font-size="14.00" style="">ERC20Upgradeable</text>
+</g>
+<!-- TokenBaseUpgradeable&#45;&gt;ERC20Upgradeable -->
+<g id="edge1" class="edge" data-name="TokenBaseUpgradeable-&gt;ERC20Upgradeable">
+
+<path fill="none" stroke="black" d="M371.75,-75.75C311.75,-63.72 223.42,-46 161.45,-33.57" style=""/>
+<polygon fill="black" stroke="black" points="162.18,-30.15 151.69,-31.61 160.8,-37.01 162.18,-30.15" style=""/>
+</g>
+<!-- ERC20PermitUpgradeable -->
+<g id="node3" class="node" pointer-events="visible" data-name="ERC20PermitUpgradeable">
+
+<ellipse fill="none" stroke="black" cx="309.81" cy="-18" rx="114.61" ry="18" style=""/>
+<text text-anchor="middle" x="309.81" y="-13.8" font-family="Times,serif" font-size="14.00" style="">ERC20PermitUpgradeable</text>
+</g>
+<!-- TokenBaseUpgradeable&#45;&gt;ERC20PermitUpgradeable -->
+<g id="edge2" class="edge" data-name="TokenBaseUpgradeable-&gt;ERC20PermitUpgradeable">
+
+<path fill="none" stroke="black" d="M407.47,-72.41C390.38,-63.06 368.81,-51.27 350.29,-41.14" style=""/>
+<polygon fill="black" stroke="black" points="352.15,-38.17 341.69,-36.44 348.79,-44.31 352.15,-38.17" style=""/>
+</g>
+<!-- ERC20PausableUpgradeable -->
+<g id="node4" class="node" pointer-events="visible" data-name="ERC20PausableUpgradeable">
+
+<ellipse fill="none" stroke="black" cx="565.81" cy="-18" rx="123.27" ry="18" style=""/>
+<text text-anchor="middle" x="565.81" y="-13.8" font-family="Times,serif" font-size="14.00" style="">ERC20PausableUpgradeable</text>
+</g>
+<!-- TokenBaseUpgradeable&#45;&gt;ERC20PausableUpgradeable -->
+<g id="edge3" class="edge" data-name="TokenBaseUpgradeable-&gt;ERC20PausableUpgradeable">
+
+<path fill="none" stroke="black" d="M468.14,-72.41C485.23,-63.06 506.8,-51.27 525.32,-41.14" style=""/>
+<polygon fill="black" stroke="black" points="526.82,-44.31 533.92,-36.44 523.46,-38.17 526.82,-44.31" style=""/>
+</g>
+<!-- OwnableUpgradeable -->
+<g id="node5" class="node" pointer-events="visible" data-name="OwnableUpgradeable">
+
+<ellipse fill="none" stroke="black" cx="801.81" cy="-18" rx="95.46" ry="18" style=""/>
+<text text-anchor="middle" x="801.81" y="-13.8" font-family="Times,serif" font-size="14.00" style="">OwnableUpgradeable</text>
+</g>
+<!-- TokenBaseUpgradeable&#45;&gt;OwnableUpgradeable -->
+<g id="edge4" class="edge" data-name="TokenBaseUpgradeable-&gt;OwnableUpgradeable">
+
+<path fill="none" stroke="black" d="M505.42,-76C567.9,-63.98 660.64,-46.15 725.7,-33.64" style=""/>
+<polygon fill="black" stroke="black" points="726.05,-37.13 735.21,-31.81 724.73,-30.26 726.05,-37.13" style=""/>
+</g>
+</g>
+</svg>
