@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "signer",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "digest",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes",
+						"name": "signature",
+						"type": "bytes"
+					}
+				],
+				"name": "isValidSignatureNow",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Signature verification helper that can be used instead of `ECRecover.recover` to seamlessly support both ECDSA signatures from externally owned accounts (EOAs) as well as ERC1271 signatures from smart contract wallets. Adapted from https://github.com/OpenZeppelin/openzeppelin-contracts/blob/21bb89ef5bfc789b9333eb05e3ba2b7b284ac77c/contracts/utils/cryptography/SignatureChecker.sol",
+			"kind": "dev",
+			"methods": {
+				"isValidSignatureNow(address,bytes32,bytes)": {
+					"details": "Checks if a signature is valid for a given signer and data hash. If the signer is a smart contract, the signature is validated against that smart contract using ERC1271, otherwise it's validated using `ECRecover.recover`.",
+					"params": {
+						"digest": "Keccak-256 hash digest of the signed message",
+						"signature": "Signature byte array associated with hash",
+						"signer": "Address of the claimed signer"
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"util/SignatureChecker.sol": "SignatureChecker"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 2000000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"interface/IERC1271.sol": {
+			"keccak256": "0xd7bdd00589fcf23979d1c6d699f6b75981195bebd230819f734e93be24b68f47",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://4b181aa974f9c68de87d85c2420a61da8cb7766ec69d1a9dbf427e5224fdf430",
+				"dweb:/ipfs/QmXqvaDaktKqidhZ3XMMw5nAp5uLZGYpqjm3bdUEugu7Vg"
+			]
+		},
+		"util/ECRecover.sol": {
+			"keccak256": "0xbcd81d1af5c532590186ca3478c0a905ccf03e9f97e84e7397965a65bf45c8ce",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://d3a1ddcb5929bf03ea8047a4fc3d51d362dcd16e23e981b73ac5f49629e06c03",
+				"dweb:/ipfs/QmdcaakJ2MCwZ5reNEVe2gaUjVbJNQFPzaFrH2sCZtaatt"
+			]
+		},
+		"util/SignatureChecker.sol": {
+			"keccak256": "0xc5424a44d08919371c8c2cbca633e69e2b7cba8f18cbfa0d2cfaa201e53fa06a",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://0ae484e358d5fd246ef774fcbe0deba8850b027199862bb918c33b08e673c574",
+				"dweb:/ipfs/QmXwiL7cFbcLm9Cc6sDJmETysZJtoyYY5jA33hwDNXbqEm"
+			]
+		}
+	},
+	"version": 1
+}

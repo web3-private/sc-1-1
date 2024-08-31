@@ -1,0 +1,2301 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"name": "OwnableInvalidOwner",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "OwnableUnauthorizedAccount",
+				"type": "error"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "Approval",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "authorizer",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "bytes32",
+						"name": "nonce",
+						"type": "bytes32"
+					}
+				],
+				"name": "AuthorizationCanceled",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "authorizer",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "bytes32",
+						"name": "nonce",
+						"type": "bytes32"
+					}
+				],
+				"name": "AuthorizationUsed",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_account",
+						"type": "address"
+					}
+				],
+				"name": "Blacklisted",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "newBlacklister",
+						"type": "address"
+					}
+				],
+				"name": "BlacklisterChanged",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "burner",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Burn",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "newMasterMinter",
+						"type": "address"
+					}
+				],
+				"name": "MasterMinterChanged",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "minter",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Mint",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "minter",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "minterAllowedAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "MinterConfigured",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "oldMinter",
+						"type": "address"
+					}
+				],
+				"name": "MinterRemoved",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "previousOwner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "OwnershipTransferred",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "feeBasisPoints",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "maxFee",
+						"type": "uint256"
+					}
+				],
+				"name": "Params",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "Pause",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "Paused",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "newAddress",
+						"type": "address"
+					}
+				],
+				"name": "PauserChanged",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "Transfer",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_account",
+						"type": "address"
+					}
+				],
+				"name": "UnBlacklisted",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_account",
+						"type": "address"
+					}
+				],
+				"name": "UnWhitelisted",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [],
+				"name": "Unpause",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "Unpaused",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_account",
+						"type": "address"
+					}
+				],
+				"name": "Whitelisted",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "newWhitelister",
+						"type": "address"
+					}
+				],
+				"name": "WhitelisterChanged",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "CANCEL_AUTHORIZATION_TYPEHASH",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "DOMAIN_SEPARATOR",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "MAX_UINT",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "PERMIT_TYPEHASH",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "RECEIVE_WITH_AUTHORIZATION_TYPEHASH",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "TRANSFER_WITH_AUTHORIZATION_TYPEHASH",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "spender",
+						"type": "address"
+					}
+				],
+				"name": "allowance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "approve",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "authorizer",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "nonce",
+						"type": "bytes32"
+					}
+				],
+				"name": "authorizationState",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "balanceOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "basisPointsRate",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_account",
+						"type": "address"
+					}
+				],
+				"name": "blacklist",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "blacklister",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "burn",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "calcFee",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "authorizer",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "nonce",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "uint8",
+						"name": "v",
+						"type": "uint8"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "r",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "s",
+						"type": "bytes32"
+					}
+				],
+				"name": "cancelAuthorization",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "authorizer",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "nonce",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes",
+						"name": "signature",
+						"type": "bytes"
+					}
+				],
+				"name": "cancelAuthorization",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "minter",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "minterAllowedAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "configureMinter",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "currency",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "decimals",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "decrement",
+						"type": "uint256"
+					}
+				],
+				"name": "decreaseAllowance",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "feeAccounts",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "increment",
+						"type": "uint256"
+					}
+				],
+				"name": "increaseAllowance",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "tokenName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "tokenSymbol",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "tokenCurrency",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "tokenDecimals",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "tokenSupply",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "newMasterMinter",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "newPauser",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "newBlacklister",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "initialize",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address[]",
+						"name": "accountsToBlacklist",
+						"type": "address[]"
+					},
+					{
+						"internalType": "address",
+						"name": "lostAndFound",
+						"type": "address"
+					}
+				],
+				"name": "initializeV1WithFee",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_account",
+						"type": "address"
+					}
+				],
+				"name": "isBlacklisted",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "isMinter",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_account",
+						"type": "address"
+					}
+				],
+				"name": "isWhitelisted",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "masterMinter",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "maximumFee",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "minter",
+						"type": "address"
+					}
+				],
+				"name": "minterAllowance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					}
+				],
+				"name": "nonces",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pause",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "paused",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pauser",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "deadline",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "signature",
+						"type": "bytes"
+					}
+				],
+				"name": "permit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "deadline",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint8",
+						"name": "v",
+						"type": "uint8"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "r",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "s",
+						"type": "bytes32"
+					}
+				],
+				"name": "permit",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "validAfter",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "validBefore",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "nonce",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes",
+						"name": "signature",
+						"type": "bytes"
+					}
+				],
+				"name": "receiveWithAuthorization",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "validAfter",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "validBefore",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "nonce",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "uint8",
+						"name": "v",
+						"type": "uint8"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "r",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "s",
+						"type": "bytes32"
+					}
+				],
+				"name": "receiveWithAuthorization",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "minter",
+						"type": "address"
+					}
+				],
+				"name": "removeMinter",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "renounceOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "setOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "newBasisPoints",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "newMaxFee",
+						"type": "uint256"
+					}
+				],
+				"name": "setParams",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "symbol",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_account",
+						"type": "address"
+					}
+				],
+				"name": "totalFee",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "transferFrom",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "transferOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "feeAccount",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "validAfter",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "validBefore",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "nonce",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "uint8",
+						"name": "v",
+						"type": "uint8"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "r",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "s",
+						"type": "bytes32"
+					}
+				],
+				"name": "transferWithAuthorizationFee",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "feeAccount",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "validAfter",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "validBefore",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "nonce",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes",
+						"name": "signature",
+						"type": "bytes"
+					}
+				],
+				"name": "transferWithAuthorizationFee",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_account",
+						"type": "address"
+					}
+				],
+				"name": "unBlacklist",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_account",
+						"type": "address"
+					}
+				],
+				"name": "unWhitelist",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "unpause",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_newBlacklister",
+						"type": "address"
+					}
+				],
+				"name": "updateBlacklister",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_newMasterMinter",
+						"type": "address"
+					}
+				],
+				"name": "updateMasterMinter",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_newPauser",
+						"type": "address"
+					}
+				],
+				"name": "updatePauser",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_newWhitelister",
+						"type": "address"
+					}
+				],
+				"name": "updateWhitelister",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "version",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_account",
+						"type": "address"
+					}
+				],
+				"name": "whitelist",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "whitelister",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"errors": {
+				"OwnableInvalidOwner(address)": [
+					{
+						"details": "The owner is not a valid owner account. (eg. `address(0)`)"
+					}
+				],
+				"OwnableUnauthorizedAccount(address)": [
+					{
+						"details": "The caller account is not authorized to perform an operation."
+					}
+				]
+			},
+			"events": {
+				"Approval(address,address,uint256)": {
+					"details": "Emitted when the allowance of a `spender` for an `owner` is set by a call to {approve}. `value` is the new allowance."
+				},
+				"Paused(address)": {
+					"details": "Emitted when the pause is triggered by `account`."
+				},
+				"Transfer(address,address,uint256)": {
+					"details": "Emitted when `value` tokens are moved from one account (`from`) to another (`to`). Note that `value` may be zero."
+				},
+				"Unpaused(address)": {
+					"details": "Emitted when the pause is lifted by `account`."
+				}
+			},
+			"kind": "dev",
+			"methods": {
+				"DOMAIN_SEPARATOR()": {
+					"returns": {
+						"_0": "The bytes32 EIP712 domain separator."
+					}
+				},
+				"allowance(address,address)": {
+					"params": {
+						"owner": "The token owner's address.",
+						"spender": "The spender's address."
+					},
+					"returns": {
+						"_0": "The remaining allowance."
+					}
+				},
+				"approve(address,uint256)": {
+					"params": {
+						"spender": "The spender's address.",
+						"value": "The allowance amount."
+					},
+					"returns": {
+						"_0": "True if the operation was successful."
+					}
+				},
+				"authorizationState(address,bytes32)": {
+					"details": "Nonces are randomly generated 32-byte data unique to the authorizer's address",
+					"params": {
+						"authorizer": "Authorizer's address",
+						"nonce": "Nonce of the authorization"
+					},
+					"returns": {
+						"_0": "True if the nonce is used"
+					}
+				},
+				"balanceOf(address)": {
+					"params": {
+						"account": "The address to check."
+					},
+					"returns": {
+						"_0": "balance The JDSC token balance of the account."
+					}
+				},
+				"blacklist(address)": {
+					"params": {
+						"_account": "The address to blacklist."
+					}
+				},
+				"burn(uint256)": {
+					"details": "The caller must be a minter, must not be blacklisted, and the amount to burn should be less than or equal to the account's balance.",
+					"params": {
+						"_amount": "the amount of tokens to be burned."
+					}
+				},
+				"cancelAuthorization(address,bytes32,bytes)": {
+					"details": "Works only if the authorization is not yet used. EOA wallet signatures should be packed in the order of r, s, v.",
+					"params": {
+						"authorizer": "Authorizer's address",
+						"nonce": "Nonce of the authorization",
+						"signature": "Signature bytes signed by an EOA wallet or a contract wallet"
+					}
+				},
+				"cancelAuthorization(address,bytes32,uint8,bytes32,bytes32)": {
+					"details": "Works only if the authorization is not yet used.",
+					"params": {
+						"authorizer": "Authorizer's address",
+						"nonce": "Nonce of the authorization",
+						"r": "r of the signature",
+						"s": "s of the signature",
+						"v": "v of the signature"
+					}
+				},
+				"configureMinter(address,uint256)": {
+					"params": {
+						"minter": "The address of the minter.",
+						"minterAllowedAmount": "The minting amount allowed for the minter."
+					},
+					"returns": {
+						"_0": "True if the operation was successful."
+					}
+				},
+				"decreaseAllowance(address,uint256)": {
+					"params": {
+						"decrement": "Amount of decrease in allowance",
+						"spender": "Spender's address"
+					},
+					"returns": {
+						"_0": "True if successful"
+					}
+				},
+				"increaseAllowance(address,uint256)": {
+					"params": {
+						"increment": "Amount of increase in allowance",
+						"spender": "Spender's address"
+					},
+					"returns": {
+						"_0": "True if successful"
+					}
+				},
+				"initialize(string,string,string,uint8,uint256,address,address,address,address)": {
+					"params": {
+						"newBlacklister": "The blacklister address for the JDSC token.",
+						"newMasterMinter": "The masterMinter address for the JDSC token.",
+						"newOwner": "The owner of the JDSC token.",
+						"newPauser": "The pauser address for the JDSC token.",
+						"tokenCurrency": "The JDSC currency that the token represents.",
+						"tokenDecimals": "The number of decimals that the token uses.",
+						"tokenName": "The name of the JDSC token.",
+						"tokenSymbol": "The symbol of the JDSC token."
+					}
+				},
+				"initializeV1WithFee(address[],address)": {
+					"params": {
+						"accountsToBlacklist": "The blacklister address for the JDSC token.",
+						"lostAndFound": "The lostAndFound address for the JDSC token"
+					}
+				},
+				"isBlacklisted(address)": {
+					"params": {
+						"_account": "The address to check."
+					},
+					"returns": {
+						"_0": "True if the account is blacklisted, false if the account is not blacklisted."
+					}
+				},
+				"isMinter(address)": {
+					"params": {
+						"account": "The address to check."
+					},
+					"returns": {
+						"_0": "True if the account is a minter, false if the account is not a minter."
+					}
+				},
+				"isWhitelisted(address)": {
+					"params": {
+						"_account": "The address to check."
+					},
+					"returns": {
+						"_0": "True if the account is whitelisted, false if the account is not whitelisted."
+					}
+				},
+				"minterAllowance(address)": {
+					"params": {
+						"minter": "The address to check."
+					},
+					"returns": {
+						"_0": "The remaining minter allowance for the account."
+					}
+				},
+				"nonces(address)": {
+					"params": {
+						"owner": "Token owner's address (Authorizer)"
+					},
+					"returns": {
+						"_0": "Next nonce"
+					}
+				},
+				"owner()": {
+					"details": "Returns the address of the current owner."
+				},
+				"pause()": {
+					"details": "called by the owner to pause, triggers stopped state"
+				},
+				"paused()": {
+					"details": "Returns true if the contract is paused, and false otherwise."
+				},
+				"permit(address,address,uint256,uint256,bytes)": {
+					"details": "EOA wallet signatures should be packed in the order of r, s, v.",
+					"params": {
+						"deadline": "The time at which the signature expires (unix time), or max uint256 value to signal no expiration",
+						"owner": "Token owner's address (Authorizer)",
+						"signature": "Signature bytes signed by an EOA wallet or a contract wallet",
+						"spender": "Spender's address",
+						"value": "Amount of allowance"
+					}
+				},
+				"permit(address,address,uint256,uint256,uint8,bytes32,bytes32)": {
+					"params": {
+						"deadline": "The time at which the signature expires (unix time), or max uint256 value to signal no expiration",
+						"owner": "Token owner's address (Authorizer)",
+						"r": "r of the signature",
+						"s": "s of the signature",
+						"spender": "Spender's address",
+						"v": "v of the signature",
+						"value": "Amount of allowance"
+					}
+				},
+				"receiveWithAuthorization(address,address,uint256,uint256,uint256,bytes32,bytes)": {
+					"details": "This has an additional check to ensure that the payee's address matches the caller of this function to prevent front-running attacks. EOA wallet signatures should be packed in the order of r, s, v.",
+					"params": {
+						"from": "Payer's address (Authorizer)",
+						"nonce": "Unique nonce",
+						"signature": "Signature bytes signed by an EOA wallet or a contract wallet",
+						"to": "Payee's address",
+						"validAfter": "The time after which this is valid (unix time)",
+						"validBefore": "The time before which this is valid (unix time)",
+						"value": "Amount to be transferred"
+					}
+				},
+				"receiveWithAuthorization(address,address,uint256,uint256,uint256,bytes32,uint8,bytes32,bytes32)": {
+					"details": "This has an additional check to ensure that the payee's address matches the caller of this function to prevent front-running attacks.",
+					"params": {
+						"from": "Payer's address (Authorizer)",
+						"nonce": "Unique nonce",
+						"r": "r of the signature",
+						"s": "s of the signature",
+						"to": "Payee's address",
+						"v": "v of the signature",
+						"validAfter": "The time after which this is valid (unix time)",
+						"validBefore": "The time before which this is valid (unix time)",
+						"value": "Amount to be transferred"
+					}
+				},
+				"removeMinter(address)": {
+					"params": {
+						"minter": "The address of the minter to remove."
+					},
+					"returns": {
+						"_0": "True if the operation was successful."
+					}
+				},
+				"renounceOwnership()": {
+					"details": "Leaves the contract without owner. It will not be possible to call `onlyOwner` functions. Can only be called by the current owner. NOTE: Renouncing ownership will leave the contract without an owner, thereby disabling any functionality that is only available to the owner."
+				},
+				"setOwner(address)": {
+					"details": "Sets a new owner address"
+				},
+				"setParams(uint256,uint256)": {
+					"params": {
+						"newBasisPoints": "the token fee ratio.",
+						"newMaxFee": "the token handling fees."
+					}
+				},
+				"totalFee(address)": {
+					"params": {
+						"_account": "The address to blacklist."
+					}
+				},
+				"totalSupply()": {
+					"returns": {
+						"_0": "The totalSupply of the JDSC token."
+					}
+				},
+				"transfer(address,uint256)": {
+					"params": {
+						"to": "Payee's address.",
+						"value": "Transfer amount."
+					},
+					"returns": {
+						"_0": "True if the operation was successful."
+					}
+				},
+				"transferFrom(address,address,uint256)": {
+					"details": "The caller must have some JDSC token allowance on the payer's tokens.",
+					"params": {
+						"from": "Payer's address.",
+						"to": "Payee's address.",
+						"value": "Transfer amount."
+					},
+					"returns": {
+						"_0": "True if the operation was successful."
+					}
+				},
+				"transferOwnership(address)": {
+					"details": "Transfers ownership of the contract to a new account (`newOwner`). Can only be called by the current owner."
+				},
+				"transferWithAuthorizationFee(address,address,address,uint256,uint256,uint256,bytes32,bytes)": {
+					"details": "EOA wallet signatures should be packed in the order of r, s, v.",
+					"params": {
+						"feeAccount": "Commission address.",
+						"from": "Payer's address (Authorizer)",
+						"nonce": "Unique nonce",
+						"signature": "Signature bytes signed by an EOA wallet or a contract wallet",
+						"to": "Payee's address",
+						"validAfter": "The time after which this is valid (unix time)",
+						"validBefore": "The time before which this is valid (unix time)",
+						"value": "Amount to be transferred"
+					}
+				},
+				"transferWithAuthorizationFee(address,address,address,uint256,uint256,uint256,bytes32,uint8,bytes32,bytes32)": {
+					"params": {
+						"feeAccount": "Commission address.",
+						"from": "Payer's address (Authorizer)",
+						"nonce": "Unique nonce",
+						"r": "r of the signature",
+						"s": "s of the signature",
+						"to": "Payee's address",
+						"v": "v of the signature",
+						"validAfter": "The time after which this is valid (unix time)",
+						"validBefore": "The time before which this is valid (unix time)",
+						"value": "Amount to be transferred"
+					}
+				},
+				"unBlacklist(address)": {
+					"params": {
+						"_account": "The address to remove from the blacklist."
+					}
+				},
+				"unWhitelist(address)": {
+					"params": {
+						"_account": "The address to remove from the whitelist."
+					}
+				},
+				"unpause()": {
+					"details": "called by the owner to unpause, returns to normal state"
+				},
+				"updateBlacklister(address)": {
+					"params": {
+						"_newBlacklister": "The address of the new blacklister."
+					}
+				},
+				"updateMasterMinter(address)": {
+					"params": {
+						"_newMasterMinter": "The address of the new master minter."
+					}
+				},
+				"updatePauser(address)": {
+					"params": {
+						"_newPauser": "The address of the new pauser."
+					}
+				},
+				"updateWhitelister(address)": {
+					"params": {
+						"_newWhitelister": "The address of the new whitelister."
+					}
+				},
+				"version()": {
+					"returns": {
+						"_0": "Version string"
+					}
+				},
+				"whitelist(address)": {
+					"params": {
+						"_account": "The address to whitelist."
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"DOMAIN_SEPARATOR()": {
+					"notice": "Get the EIP712 Domain Separator."
+				},
+				"allowance(address,address)": {
+					"notice": "Gets the remaining amount of JDSC tokens a spender is allowed to transfer on behalf of the token owner."
+				},
+				"approve(address,uint256)": {
+					"notice": "Sets a JDSC token allowance for a spender to spend on behalf of the caller."
+				},
+				"authorizationState(address,bytes32)": {
+					"notice": "Returns the state of an authorization"
+				},
+				"balanceOf(address)": {
+					"notice": "Gets the JDSC token balance of an account."
+				},
+				"blacklist(address)": {
+					"notice": "Adds account to blacklist."
+				},
+				"burn(uint256)": {
+					"notice": "Allows a minter to burn some of its own tokens."
+				},
+				"cancelAuthorization(address,bytes32,bytes)": {
+					"notice": "Attempt to cancel an authorization"
+				},
+				"cancelAuthorization(address,bytes32,uint8,bytes32,bytes32)": {
+					"notice": "Attempt to cancel an authorization"
+				},
+				"configureMinter(address,uint256)": {
+					"notice": "Adds or updates a new minter with a mint allowance."
+				},
+				"decreaseAllowance(address,uint256)": {
+					"notice": "JDSCTokenV2Decrease the allowance by a given decrement"
+				},
+				"increaseAllowance(address,uint256)": {
+					"notice": "JDSCTokenV2Increase the allowance by a given increment"
+				},
+				"initialize(string,string,string,uint8,uint256,address,address,address,address)": {
+					"notice": "Initializes the JDSC token contract."
+				},
+				"initializeV1WithFee(address[],address)": {
+					"notice": "initializeV1WithFee the JDSC token contract."
+				},
+				"isBlacklisted(address)": {
+					"notice": "Checks if account is blacklisted."
+				},
+				"isMinter(address)": {
+					"notice": "Checks if an account is a minter."
+				},
+				"isWhitelisted(address)": {
+					"notice": "Checks if account is whitelisted."
+				},
+				"minterAllowance(address)": {
+					"notice": "Gets the minter allowance for an account."
+				},
+				"nonces(address)": {
+					"notice": "Nonces for permit"
+				},
+				"permit(address,address,uint256,uint256,bytes)": {
+					"notice": "Update allowance with a signed permit"
+				},
+				"permit(address,address,uint256,uint256,uint8,bytes32,bytes32)": {
+					"notice": "Update allowance with a signed permit"
+				},
+				"receiveWithAuthorization(address,address,uint256,uint256,uint256,bytes32,bytes)": {
+					"notice": "Receive a transfer with a signed authorization from the payer"
+				},
+				"receiveWithAuthorization(address,address,uint256,uint256,uint256,bytes32,uint8,bytes32,bytes32)": {
+					"notice": "Receive a transfer with a signed authorization from the payer"
+				},
+				"removeMinter(address)": {
+					"notice": "Removes a minter."
+				},
+				"setParams(uint256,uint256)": {
+					"notice": "setParams the JDSC token contract."
+				},
+				"totalFee(address)": {
+					"notice": "Adds account to blacklist."
+				},
+				"totalSupply()": {
+					"notice": "Gets the totalSupply of the JDSC token."
+				},
+				"transfer(address,uint256)": {
+					"notice": "Transfers tokens from the caller."
+				},
+				"transferFrom(address,address,uint256)": {
+					"notice": "Transfers tokens from an address to another by spending the caller's allowance."
+				},
+				"transferWithAuthorizationFee(address,address,address,uint256,uint256,uint256,bytes32,bytes)": {
+					"notice": "Execute a transfer with a signed authorization.And deduct the caller fee."
+				},
+				"transferWithAuthorizationFee(address,address,address,uint256,uint256,uint256,bytes32,uint8,bytes32,bytes32)": {
+					"notice": "Execute a transfer with a signed authorization.And deduct the caller fee."
+				},
+				"unBlacklist(address)": {
+					"notice": "Removes account from blacklist."
+				},
+				"unWhitelist(address)": {
+					"notice": "Removes account from whitelist."
+				},
+				"updateBlacklister(address)": {
+					"notice": "Updates the blacklister address."
+				},
+				"updateMasterMinter(address)": {
+					"notice": "Updates the master minter address."
+				},
+				"updatePauser(address)": {
+					"notice": "Updates the pauser address."
+				},
+				"updateWhitelister(address)": {
+					"notice": "Updates the whitelister address."
+				},
+				"version()": {
+					"notice": "Version string for the EIP712 domain separator"
+				},
+				"whitelist(address)": {
+					"notice": "Adds account to whitelist."
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"erc20/JDSCTokenV1WithFees.sol": "JDSCTokenV1WithFees"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 2000000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/access/Ownable.sol": {
+			"keccak256": "0xff6d0bb2e285473e5311d9d3caacb525ae3538a80758c10649a4d61029b017bb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8ed324d3920bb545059d66ab97d43e43ee85fd3bd52e03e401f020afb0b120f6",
+				"dweb:/ipfs/QmfEckWLmZkDDcoWrkEvMWhms66xwTLff9DDhegYpvHo1a"
+			]
+		},
+		"@openzeppelin/contracts/interfaces/IERC1271.sol": {
+			"keccak256": "0x85a45f3f10014a0f8be41157a32b6a5f905753ea64a4b64e29fc12b7deeecf39",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c3c74009ce36136b36c77c23935b8e4a7b4f253be2da2be4fb4a916b1ce43743",
+				"dweb:/ipfs/QmcH36v3iN7SJJuF73AunLR2LtNxhVJ1wm63ph4dPZ4pcL"
+			]
+		},
+		"@openzeppelin/contracts/security/Pausable.sol": {
+			"keccak256": "0x0849d93b16c9940beb286a7864ed02724b248b93e0d80ef6355af5ef15c64773",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4ddabb16009cd17eaca3143feadf450ac13e72919ebe2ca50e00f61cb78bc004",
+				"dweb:/ipfs/QmSPwPxX7d6TTWakN5jy5wsaGkS1y9TW8fuhGSraMkLk2B"
+			]
+		},
+		"@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0xc6a8ff0ea489379b61faa647490411b80102578440ab9d84e9a957cc12164e70",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0ea104e577e63faea3b69c415637e99e755dcbf64c5833d7140c35a714d6d90c",
+				"dweb:/ipfs/Qmau6x4Ns9XdyynRCNNp3RhLqijJjFm7z5fyZazfYFGYdq"
+			]
+		},
+		"@openzeppelin/contracts/utils/Context.sol": {
+			"keccak256": "0x493033a8d1b176a037b2cc6a04dad01a5c157722049bbecf632ca876224dd4b2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6a708e8a5bdb1011c2c381c9a5cfd8a9a956d7d0a9dc1bd8bcdaf52f76ef2f12",
+				"dweb:/ipfs/Qmax9WHBnVsZP46ZxEMNRQpLQnrdE4dK8LehML1Py8FowF"
+			]
+		},
+		"@openzeppelin/contracts/utils/cryptography/ECDSA.sol": {
+			"keccak256": "0xeed0a08b0b091f528356cbc7245891a4c748682d4f6a18055e8e6ca77d12a6cf",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ba80ba06c8e6be852847e4c5f4492cef801feb6558ae09ed705ff2e04ea8b13c",
+				"dweb:/ipfs/QmXRJDv3xHLVQCVXg1ZvR35QS9sij5y9NDWYzMfUfAdTHF"
+			]
+		},
+		"@openzeppelin/contracts/utils/cryptography/SignatureChecker.sol": {
+			"keccak256": "0x6b11eb41a228cca35d4b662b4df69fcd75192851365102690f57b2ac01e83fe6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ab006a2983ed350d2af21ddcdd835dcae3b8340086cc4d088460da5abd041f69",
+				"dweb:/ipfs/QmbEacDhkJZiGrgzLjB4pNtE8Z1uudjDw1DvcDUTVQFsLG"
+			]
+		},
+		"@openzeppelin/contracts/utils/math/SafeMath.sol": {
+			"keccak256": "0x58b21219689909c4f8339af00813760337f7e2e7f169a97fe49e2896dcfb3b9a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ef8e012e946dec20e59f2d4446f4b44bb098f3fa8bac103b1b5112fff777447b",
+				"dweb:/ipfs/QmVTooKWcLkJ9W68yNX4MgdrbAKiAXwuRN9A7f4NkdcdtQ"
+			]
+		},
+		"access/JDSCOwnable.sol": {
+			"keccak256": "0x2d3550329b893113f802450a76924cfb9717338e4e775de3ba878870ac3ecf9b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fdffbf1d619db3c7aa9cde2752ef84b7fdd21a2ae01f0ca37ae69ed9599e4470",
+				"dweb:/ipfs/QmT2yYyX4pZaQkuVDxje5xw5vJKC6DfSdCGD91zRoCAGdD"
+			]
+		},
+		"access/blacklist/Blacklistable.sol": {
+			"keccak256": "0x185fb08eaf77db249c988732568c81a139e1e04308e20425ff86ee7292a00804",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://c2da42a810e35e58e2f6073eb128cd48d15e62b1e9acb597ec7fabeffad52887",
+				"dweb:/ipfs/QmdT56PjgddQJj5fxD9PZ2ijDaAq6ribEMiq8VDgPEoqL7"
+			]
+		},
+		"access/whitelist/Whitelistable.sol": {
+			"keccak256": "0x40877cb7815dee94df468d61d72503da1fd684880fd6e666b95ac496eb86f034",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0eb6757ef3b654771a1f985ea67c363af4c8abc8615fe805e1b678a9575685c3",
+				"dweb:/ipfs/QmQwjwFu43rRmoASMwxM7BArxTuDXSwFBaz1tctHZRRSaQ"
+			]
+		},
+		"eip/EIP2612.sol": {
+			"keccak256": "0xafa4b31549e0ce1080775a887e539cadb599533d263d052015a76e074c4c3240",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://f0881f48ee22ef4f605000fc44236fd7d81b8faeddb3f2a67100b4f4575edd29",
+				"dweb:/ipfs/QmNuvcVpqWYX1MwjB2j2jkXK7og4dp7dotQPRcDQs1jdx3"
+			]
+		},
+		"eip/EIP3009.sol": {
+			"keccak256": "0xd2bbf632ee09926b133834a950facce73ddf660b4609e62b5f6f90b5bb299597",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://526dab6a0c73aae5493533359124e6e235a5e417fd3cbf7440366d61544d6dd0",
+				"dweb:/ipfs/QmYRErdQwLmv7kBg9WgPAhsxTfTt9jNyNwAPMJxVEpEWfc"
+			]
+		},
+		"eip/EIP712.sol": {
+			"keccak256": "0xd23e4bded65bd2dd4397afb36b6cbc937a45f19ef8a07db068606d37e05b366b",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://6b981b4447099a7230bf07ed6ffee9061f870a2fe6128323e40b8e2022e7e4ab",
+				"dweb:/ipfs/QmQ6Tzsn9K7KmBPMSa8pJ5TaL4eaSrSQG6xBQUB3JvewKu"
+			]
+		},
+		"eip/EIP712Domain.sol": {
+			"keccak256": "0x761e6e7167c62ac53de7dc674ab069a5619436fc82e6e0e5fb788121ce197beb",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://b157e0d985923e8caafb12abdab2e9882078ffe6f75ebf0e4e96599abd46ca58",
+				"dweb:/ipfs/Qma5KpwK1N41q5JDBk9S3iy7tpUwMNNwjDJVBFThEy3xHW"
+			]
+		},
+		"erc20/AbstractJDSCToken.sol": {
+			"keccak256": "0x2ee2ff246586c44ad883b8a132f979ad27e8b47740305a788ef690615bf89db3",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://0cd44f80632d247966dfba8c4592b76ffe17d6430b234bbbeb2d3927035dcc79",
+				"dweb:/ipfs/QmUeTgNDKyhj61rDQ1X6s6C4vHS8GfqYupxU6p72Yjx37D"
+			]
+		},
+		"erc20/JDSCTokenV1.sol": {
+			"keccak256": "0x2ab368a071cd6ae73a026888edaaefe6ad698c2b4c15da9bc46d52d4bbf197fb",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://b3854e3bc3eee0aa8707eb69fe500cd07849b7fae3ceb6caa6b7388d43ce737c",
+				"dweb:/ipfs/QmdPMG7MEyaXQMr3aPDXtYJLwcwfB8RYofH9cqvjjNAHq2"
+			]
+		},
+		"erc20/JDSCTokenV1WithFees.sol": {
+			"keccak256": "0x86da4ddc0608f7f6ce33711efc3c8c3c3fb5a413a191b9f68cf8303a1dce43fb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c6a7bdef1d4880ba8b5a7078d03205f3e9b445f483a0580ecf25d7acbeae231d",
+				"dweb:/ipfs/QmdLQfiXNTwNn9cC8uEFEHkLssr83We8SECbX3YkC1Mo35"
+			]
+		},
+		"erc20/extensions/ERC20Allowable.sol": {
+			"keccak256": "0x83a1e2374ca60c568276df6c5089b16525b6f1b015f29d6da4f0e5fb4dd4a005",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://528b26cb33c5545b2eb1cfba525e7a2dcced1d8c6ae6f496191658a1dff6d376",
+				"dweb:/ipfs/QmP5uivGfwPuTE7aB9yuoXnTbYCUQkxkrP4Uq3KsqTG6Qe"
+			]
+		},
+		"erc20/extensions/ERC20Approve.sol": {
+			"keccak256": "0x02fb867d2cd238247d396fff4dbd31c348723b34adf78bd602c58978de6a6712",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://acfb799a8c523bd1e09edea03a6b10349b760a9c54024c9d457b59869ed01e4e",
+				"dweb:/ipfs/QmTZ33KGgz1pK9WjeLVRJteRYmbmHE7UqZncivVxaRo5Th"
+			]
+		},
+		"erc20/extensions/ERC20Transferable.sol": {
+			"keccak256": "0x9fad3b6453b617e6ce565aff1f7cf550540433d84584df1ba7ada6698331fb1f",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://763854aa3958797a566a24729d0807c3afc233fd9334ffa88b2a76516be8e039",
+				"dweb:/ipfs/QmRPzmtJxpy95P2RNrk9hyNCiRPeFDSVPEy4yFfoAQLTRG"
+			]
+		},
+		"security/JDSCPausable.sol": {
+			"keccak256": "0x0fe5b91363533c8cc523f5b46ca78aad032325ece5d972dde95108cd3527b935",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://89d7136395dcedaa2593b6f4f7c893dd5b91158ae27d5cdbe3e54eba31455197",
+				"dweb:/ipfs/QmdSizJPdjVVeMiwQY8u57mAL6SkfHmK2LLuCSxDGC4vMp"
+			]
+		},
+		"util/MessageHashUtils.sol": {
+			"keccak256": "0x37da2dca1377a6858128b480ddceab01425a98243c247ca49ee3dfecdd12ef9e",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://98a6043483225da5a774c23091d650ce94a175cc85c931f3403276c85be670cd",
+				"dweb:/ipfs/Qmf4trmyZR6y9444a4sL4kRvtWMx72XU5WMUfijJuCMwQd"
+			]
+		}
+	},
+	"version": 1
+}

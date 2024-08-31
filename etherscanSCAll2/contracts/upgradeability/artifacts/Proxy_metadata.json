@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "Received",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"details": "Forked from https://github.com/zeppelinos/zos-lib/blob/8a16ef3ad17ec7430e3a9d2b5e3f39b8204f8c8d/contracts/upgradeability/Proxy.sol Modifications: 1. Reformat and conform to Solidity 0.6 syntax (5/13/20)",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "Implements delegation of calls to other contracts, with proper forwarding of return values and bubbling of failures. It defines a fallback function that delegates all calls to the address returned by the abstract _implementation() internal function.",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"upgradeability/Proxy.sol": "Proxy"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 2000000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"upgradeability/Proxy.sol": {
+			"keccak256": "0x4543eb7ecaa6133aad84b6e191050ead51d706fd16b98129bb4c1d046eb5daae",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://a080252fb99157abf137607b68cace9b8a317a3318abbf1eab039364c8daf9d7",
+				"dweb:/ipfs/QmQg3BSmP1KPsSx772od7LWwwoyuwFi3E4Rsbh4PofckyB"
+			]
+		}
+	},
+	"version": 1
+}

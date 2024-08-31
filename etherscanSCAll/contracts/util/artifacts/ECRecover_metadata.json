@@ -1,0 +1,47 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"title": "ECRecover",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "A library that provides a safe ECDSA recovery function",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"util/ECRecover.sol": "ECRecover"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 2000000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"util/ECRecover.sol": {
+			"keccak256": "0xbcd81d1af5c532590186ca3478c0a905ccf03e9f97e84e7397965a65bf45c8ce",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://d3a1ddcb5929bf03ea8047a4fc3d51d362dcd16e23e981b73ac5f49629e06c03",
+				"dweb:/ipfs/QmdcaakJ2MCwZ5reNEVe2gaUjVbJNQFPzaFrH2sCZtaatt"
+			]
+		}
+	},
+	"version": 1
+}

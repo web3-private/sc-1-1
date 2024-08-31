@@ -1,0 +1,72 @@
+{
+	"id": "fac4c00dbf19307a5c1eb8eccb6a6768",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.25",
+	"solcLongVersion": "0.8.25+commit.b61c2a91",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"upgradeability/Proxy.sol": {
+				"content": "// /**\n//  * SPDX-License-Identifier: Apache-2.0\n//  *\n//  * Copyright (c) 2023, Circle Internet Financial, LLC.\n//  *\n//  * Licensed under the Apache License, Version 2.0 (the \"License\");\n//  * you may not use this file except in compliance with the License.\n//  * You may obtain a copy of the License at\n//  *\n//  * http://www.apache.org/licenses/LICENSE-2.0\n//  *\n//  * Unless required by applicable law or agreed to in writing, software\n//  * distributed under the License is distributed on an \"AS IS\" BASIS,\n//  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n//  * See the License for the specific language governing permissions and\n//  * limitations under the License.\n//  */\n\n// pragma solidity ^0.8.0;\n\n// /**\n//  * @notice Implements delegation of calls to other contracts, with proper\n//  * forwarding of return values and bubbling of failures.\n//  * It defines a fallback function that delegates all calls to the address\n//  * returned by the abstract _implementation() internal function.\n//  * @dev Forked from https://github.com/zeppelinos/zos-lib/blob/8a16ef3ad17ec7430e3a9d2b5e3f39b8204f8c8d/contracts/upgradeability/Proxy.sol\n//  * Modifications:\n//  * 1. Reformat and conform to Solidity 0.6 syntax (5/13/20)\n//  */\n// abstract contract Proxy {\n//     event Received(address, uint);\n//     /**\n//      * @dev Fallback function.\n//      * Implemented entirely in `_fallback`.\n//      */\n//     fallback() external payable {\n//         _fallback();\n//     }\n\n//     receive() external payable {\n//         emit Received(msg.sender, msg.value);\n//     }\n//     /**\n//      * @return The Address of the implementation.\n//      */\n//     function _implementation() internal virtual view returns (address);\n\n//     /**\n//      * @dev Delegates execution to an implementation contract.\n//      * This is a low level function that doesn't return to its internal call site.\n//      * It will return to the external caller whatever the implementation returns.\n//      * @param implementation Address to delegate.\n//      */\n//     function _delegate(address implementation) internal {\n//         assembly {\n//             // Copy msg.data. We take full control of memory in this inline assembly\n//             // block because it will not return to Solidity code. We overwrite the\n//             // Solidity scratch pad at memory position 0.\n//             calldatacopy(0, 0, calldatasize())\n\n//             // Call the implementation.\n//             // out and outsize are 0 because we don't know the size yet.\n//             let result := delegatecall(\n//                 gas(),\n//                 implementation,\n//                 0,\n//                 calldatasize(),\n//                 0,\n//                 0\n//             )\n\n//             // Copy the returned data.\n//             returndatacopy(0, 0, returndatasize())\n\n//             switch result\n//                 // delegatecall returns 0 on error.\n//                 case 0 {\n//                     revert(0, returndatasize())\n//                 }\n//                 default {\n//                     return(0, returndatasize())\n//                 }\n//         }\n//     }\n\n//     /**\n//      * @dev Function that is run as the first thing in the fallback function.\n//      * Can be redefined in derived contracts to add functionality.\n//      * Redefinitions must call super._willFallback().\n//      */\n//     function _willFallback() internal virtual {}\n\n//     /**\n//      * @dev fallback implementation.\n//      * Extracted to enable manual triggering.\n//      */\n//     function _fallback() internal {\n//         _willFallback();\n//         _delegate(_implementation());\n//     }\n// }"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": true,
+				"runs": 2000000
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"errors": [
+			{
+				"component": "general",
+				"errorCode": "3420",
+				"formattedMessage": "Warning: Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.25;\"\n--> upgradeability/Proxy.sol\n\n",
+				"message": "Source file does not specify required compiler version! Consider adding \"pragma solidity ^0.8.25;\"",
+				"severity": "warning",
+				"sourceLocation": {
+					"end": -1,
+					"file": "upgradeability/Proxy.sol",
+					"start": -1
+				},
+				"type": "Warning"
+			}
+		],
+		"sources": {
+			"upgradeability/Proxy.sol": {
+				"ast": {
+					"absolutePath": "upgradeability/Proxy.sol",
+					"exportedSymbols": {},
+					"id": 1,
+					"license": "Apache-2.0",
+					"nodeType": "SourceUnit",
+					"nodes": [],
+					"src": "3689:0:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}

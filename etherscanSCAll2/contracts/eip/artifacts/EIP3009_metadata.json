@@ -1,0 +1,456 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "Approval",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "authorizer",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "bytes32",
+						"name": "nonce",
+						"type": "bytes32"
+					}
+				],
+				"name": "AuthorizationCanceled",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "authorizer",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "bytes32",
+						"name": "nonce",
+						"type": "bytes32"
+					}
+				],
+				"name": "AuthorizationUsed",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "Transfer",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "CANCEL_AUTHORIZATION_TYPEHASH",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "DOMAIN_SEPARATOR",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "RECEIVE_WITH_AUTHORIZATION_TYPEHASH",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "TRANSFER_WITH_AUTHORIZATION_TYPEHASH",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "spender",
+						"type": "address"
+					}
+				],
+				"name": "allowance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "approve",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "authorizer",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "nonce",
+						"type": "bytes32"
+					}
+				],
+				"name": "authorizationState",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "balanceOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "transferFrom",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Contracts that inherit from this must wrap these with publicly accessible functions, optionally adding modifiers where necessary",
+			"events": {
+				"Approval(address,address,uint256)": {
+					"details": "Emitted when the allowance of a `spender` for an `owner` is set by a call to {approve}. `value` is the new allowance."
+				},
+				"Transfer(address,address,uint256)": {
+					"details": "Emitted when `value` tokens are moved from one account (`from`) to another (`to`). Note that `value` may be zero."
+				}
+			},
+			"kind": "dev",
+			"methods": {
+				"DOMAIN_SEPARATOR()": {
+					"returns": {
+						"_0": "The bytes32 EIP712 domain separator."
+					}
+				},
+				"allowance(address,address)": {
+					"details": "Returns the remaining number of tokens that `spender` will be allowed to spend on behalf of `owner` through {transferFrom}. This is zero by default. This value changes when {approve} or {transferFrom} are called."
+				},
+				"approve(address,uint256)": {
+					"details": "Sets a `value` amount of tokens as the allowance of `spender` over the caller's tokens. Returns a boolean value indicating whether the operation succeeded. IMPORTANT: Beware that changing an allowance with this method brings the risk that someone may use both the old and the new allowance by unfortunate transaction ordering. One possible solution to mitigate this race condition is to first reduce the spender's allowance to 0 and set the desired value afterwards: https://github.com/ethereum/EIPs/issues/20#issuecomment-263524729 Emits an {Approval} event."
+				},
+				"authorizationState(address,bytes32)": {
+					"details": "Nonces are randomly generated 32-byte data unique to the authorizer's address",
+					"params": {
+						"authorizer": "Authorizer's address",
+						"nonce": "Nonce of the authorization"
+					},
+					"returns": {
+						"_0": "True if the nonce is used"
+					}
+				},
+				"balanceOf(address)": {
+					"details": "Returns the value of tokens owned by `account`."
+				},
+				"totalSupply()": {
+					"details": "Returns the value of tokens in existence."
+				},
+				"transfer(address,uint256)": {
+					"details": "Moves a `value` amount of tokens from the caller's account to `to`. Returns a boolean value indicating whether the operation succeeded. Emits a {Transfer} event."
+				},
+				"transferFrom(address,address,uint256)": {
+					"details": "Moves a `value` amount of tokens from `from` to `to` using the allowance mechanism. `value` is then deducted from the caller's allowance. Returns a boolean value indicating whether the operation succeeded. Emits a {Transfer} event."
+				}
+			},
+			"stateVariables": {
+				"_authorizationStates": {
+					"details": "authorizer address => nonce => bool (true if nonce is used)"
+				}
+			},
+			"title": "EIP-3009",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"DOMAIN_SEPARATOR()": {
+					"notice": "Get the EIP712 Domain Separator."
+				},
+				"authorizationState(address,bytes32)": {
+					"notice": "Returns the state of an authorization"
+				}
+			},
+			"notice": "Provide internal implementation for gas-abstracted transfers",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"eip/EIP3009.sol": "EIP3009"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 2000000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0xc6a8ff0ea489379b61faa647490411b80102578440ab9d84e9a957cc12164e70",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0ea104e577e63faea3b69c415637e99e755dcbf64c5833d7140c35a714d6d90c",
+				"dweb:/ipfs/Qmau6x4Ns9XdyynRCNNp3RhLqijJjFm7z5fyZazfYFGYdq"
+			]
+		},
+		"eip/EIP3009.sol": {
+			"keccak256": "0xb81e5a102fdc6bfc8fa69b2c1d3e36dcc23a2ff7b05ef457656bb06e52744f59",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://4659c32f31ff98ac2aaf938a7b645e53eacdeb66d36197da6c8470ed8d5fb934",
+				"dweb:/ipfs/QmTCuJzKBdjETtYCcwhY7SCGZQ481mUh1ss7mKdkceD8iN"
+			]
+		},
+		"eip/EIP712Domain.sol": {
+			"keccak256": "0x761e6e7167c62ac53de7dc674ab069a5619436fc82e6e0e5fb788121ce197beb",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://b157e0d985923e8caafb12abdab2e9882078ffe6f75ebf0e4e96599abd46ca58",
+				"dweb:/ipfs/Qma5KpwK1N41q5JDBk9S3iy7tpUwMNNwjDJVBFThEy3xHW"
+			]
+		},
+		"erc20/extensions/ERC20Transferable.sol": {
+			"keccak256": "0x9fad3b6453b617e6ce565aff1f7cf550540433d84584df1ba7ada6698331fb1f",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://763854aa3958797a566a24729d0807c3afc233fd9334ffa88b2a76516be8e039",
+				"dweb:/ipfs/QmRPzmtJxpy95P2RNrk9hyNCiRPeFDSVPEy4yFfoAQLTRG"
+			]
+		},
+		"interface/IERC1271.sol": {
+			"keccak256": "0xd7bdd00589fcf23979d1c6d699f6b75981195bebd230819f734e93be24b68f47",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://4b181aa974f9c68de87d85c2420a61da8cb7766ec69d1a9dbf427e5224fdf430",
+				"dweb:/ipfs/QmXqvaDaktKqidhZ3XMMw5nAp5uLZGYpqjm3bdUEugu7Vg"
+			]
+		},
+		"util/ECRecover.sol": {
+			"keccak256": "0xbcd81d1af5c532590186ca3478c0a905ccf03e9f97e84e7397965a65bf45c8ce",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://d3a1ddcb5929bf03ea8047a4fc3d51d362dcd16e23e981b73ac5f49629e06c03",
+				"dweb:/ipfs/QmdcaakJ2MCwZ5reNEVe2gaUjVbJNQFPzaFrH2sCZtaatt"
+			]
+		},
+		"util/MessageHashUtils.sol": {
+			"keccak256": "0x37da2dca1377a6858128b480ddceab01425a98243c247ca49ee3dfecdd12ef9e",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://98a6043483225da5a774c23091d650ce94a175cc85c931f3403276c85be670cd",
+				"dweb:/ipfs/Qmf4trmyZR6y9444a4sL4kRvtWMx72XU5WMUfijJuCMwQd"
+			]
+		},
+		"util/SignatureChecker.sol": {
+			"keccak256": "0xc5424a44d08919371c8c2cbca633e69e2b7cba8f18cbfa0d2cfaa201e53fa06a",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://0ae484e358d5fd246ef774fcbe0deba8850b027199862bb918c33b08e673c574",
+				"dweb:/ipfs/QmXwiL7cFbcLm9Cc6sDJmETysZJtoyYY5jA33hwDNXbqEm"
+			]
+		}
+	},
+	"version": 1
+}

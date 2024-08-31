@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "DOMAIN_SEPARATOR",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"DOMAIN_SEPARATOR()": {
+					"returns": {
+						"_0": "The bytes32 EIP712 domain separator."
+					}
+				}
+			},
+			"title": "EIP712 Domain",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"DOMAIN_SEPARATOR()": {
+					"notice": "Get the EIP712 Domain Separator."
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"util/EIP712Domain.sol": "EIP712Domain"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 2000000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"util/EIP712Domain.sol": {
+			"keccak256": "0xac8612431dcd0ce278ea4cdc41955408b9465125a57316076581fc41eca16cdb",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://d3c189f152499197782cd88bb33633df32a234a5580e55eedc49f532cea79462",
+				"dweb:/ipfs/QmaQVRyHghvcbVEaTq7HvJXcgeRPVoPN2JAbWmGC7zL9fQ"
+			]
+		}
+	},
+	"version": 1
+}

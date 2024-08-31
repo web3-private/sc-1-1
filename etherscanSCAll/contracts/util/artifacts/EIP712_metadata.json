@@ -1,0 +1,47 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"title": "EIP712",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "A library that provides EIP712 helper functions",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"util/EIP712.sol": "EIP712"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 2000000
+		},
+		"remappings": []
+	},
+	"sources": {
+		"util/EIP712.sol": {
+			"keccak256": "0xe37a5f63301df416c581522dafd043fc5e5a2959de5912472913f51b8f732fe1",
+			"license": "Apache-2.0",
+			"urls": [
+				"bzz-raw://0c536d49720887999a75c64acf50d472ce2a577bfd2e4216a38b5866474fd547",
+				"dweb:/ipfs/Qma2aoGrri5oJ8acxjfVxWcxuAyRMyMVGLvBFvM6Xz2BL5"
+			]
+		}
+	},
+	"version": 1
+}
