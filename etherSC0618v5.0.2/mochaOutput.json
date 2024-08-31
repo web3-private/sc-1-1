@@ -1,0 +1,462 @@
+{
+ "stats": {
+  "suites": 32,
+  "tests": 32,
+  "passes": 32,
+  "pending": 0,
+  "failures": 0
+ },
+ "tests": [
+  {
+   "title": "Should blacklist the  address",
+   "fullTitle": "TokenUpgradeable contract Blacklist Validations Should blacklist the  address",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should blacklist the address list",
+   "fullTitle": "TokenUpgradeable contract Blacklist Validations Should blacklist the address list",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should emit an event on UpdateBlacklistManager",
+   "fullTitle": "TokenUpgradeable contract Blacklist Events Should emit an event on UpdateBlacklistManager",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should whitelist the  address",
+   "fullTitle": "TokenUpgradeable contract Whitelist Should whitelist the  address",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should whitelist the  address list",
+   "fullTitle": "TokenUpgradeable contract Whitelist Should whitelist the  address list",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should grant and check ADMIN_ROLE",
+   "fullTitle": "TokenUpgradeable contract Roles and Permissions Should grant and check ADMIN_ROLE",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should grant and check PAUSER_ROLE",
+   "fullTitle": "TokenUpgradeable contract Roles and Permissions Should grant and check PAUSER_ROLE",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should grant and check BLACKLIST_MEMBER_ROLE",
+   "fullTitle": "TokenUpgradeable contract Roles and Permissions Should grant and check BLACKLIST_MEMBER_ROLE",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should grant and check WHITELIST_MEMBER_ROLE",
+   "fullTitle": "TokenUpgradeable contract Roles and Permissions Should grant and check WHITELIST_MEMBER_ROLE",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should grant and check MASTER_MINTER_ROLE",
+   "fullTitle": "TokenUpgradeable contract Roles and Permissions Should grant and check MASTER_MINTER_ROLE",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should grant and check MINTER_ROLE",
+   "fullTitle": "TokenUpgradeable contract Roles and Permissions Should grant and check MINTER_ROLE",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should grant and check FEE_MANAGER_ROLE",
+   "fullTitle": "TokenUpgradeable contract Roles and Permissions Should grant and check FEE_MANAGER_ROLE",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should grant and check FEE_HOLDER_ROLE",
+   "fullTitle": "TokenUpgradeable contract Roles and Permissions Should grant and check FEE_HOLDER_ROLE",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should allow only PAUSER_ROLE to pause the contract",
+   "fullTitle": "TokenUpgradeable contract Roles and Permissions Should allow only PAUSER_ROLE to pause the contract",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should allow only BLACKLIST_MEMBER_ROLE to blacklist accounts",
+   "fullTitle": "TokenUpgradeable contract Roles and Permissions Should allow only BLACKLIST_MEMBER_ROLE to blacklist accounts",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should mint the funds to the to",
+   "fullTitle": "TokenUpgradeable contract Mint Validations Should mint the funds to the to",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should mint the funds to the owner",
+   "fullTitle": "TokenUpgradeable contract Mint Validations Should mint the funds to the owner",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should emit an event on mint",
+   "fullTitle": "TokenUpgradeable contract Mint Events Should emit an event on mint",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should Redeem the funds to the owner",
+   "fullTitle": "TokenUpgradeable contract Redeem Validations Should Redeem the funds to the owner",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should emit an event on redeem",
+   "fullTitle": "TokenUpgradeable contract Redeem Events Should emit an event on redeem",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should transfer the funds to the owner",
+   "fullTitle": "TokenUpgradeable contract Transfers Validations Should transfer the funds to the owner",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should emit an event on withdrawals",
+   "fullTitle": "TokenUpgradeable contract Transfers Events Should emit an event on withdrawals",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should query decimals",
+   "fullTitle": "TokenUpgradeable contract other functions query decimals Should query decimals",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should be approved for the amount",
+   "fullTitle": "TokenUpgradeable contract other functions approve Should be approved for the amount",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should be remove minter",
+   "fullTitle": "TokenUpgradeable contract other functions removeMinter Should be remove minter",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should be add fee account",
+   "fullTitle": "TokenUpgradeable contract other functions addFeeAccount Should be add fee account",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should be remove fee account",
+   "fullTitle": "TokenUpgradeable contract other functions removeFeeAccount Should be remove fee account",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should be update fee account",
+   "fullTitle": "TokenUpgradeable contract other functions updateFeeManager Should be update fee account",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should be update white status",
+   "fullTitle": "TokenUpgradeable contract other functions updateWhitestatus Should be update white status",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should  transfer the 'from' address funds to the 'to' address",
+   "fullTitle": "TokenUpgradeable contract other functions updateWhitestatus Validations transferFrom Should  transfer the 'from' address funds to the 'to' address",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should  transfer the 'from' address funds to the 'to' address",
+   "fullTitle": "TokenUpgradeable contract other functions updateWhitestatus Validations Events Should  transfer the 'from' address funds to the 'to' address",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should be is Minter account",
+   "fullTitle": "TokenUpgradeable contract other functions isMinter Should be is Minter account",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  }
+ ],
+ "failures": [],
+ "passes": [
+  {
+   "title": "Should blacklist the  address",
+   "fullTitle": "TokenUpgradeable contract Blacklist Validations Should blacklist the  address",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should blacklist the address list",
+   "fullTitle": "TokenUpgradeable contract Blacklist Validations Should blacklist the address list",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should emit an event on UpdateBlacklistManager",
+   "fullTitle": "TokenUpgradeable contract Blacklist Events Should emit an event on UpdateBlacklistManager",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should whitelist the  address",
+   "fullTitle": "TokenUpgradeable contract Whitelist Should whitelist the  address",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should whitelist the  address list",
+   "fullTitle": "TokenUpgradeable contract Whitelist Should whitelist the  address list",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should grant and check ADMIN_ROLE",
+   "fullTitle": "TokenUpgradeable contract Roles and Permissions Should grant and check ADMIN_ROLE",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should grant and check PAUSER_ROLE",
+   "fullTitle": "TokenUpgradeable contract Roles and Permissions Should grant and check PAUSER_ROLE",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should grant and check BLACKLIST_MEMBER_ROLE",
+   "fullTitle": "TokenUpgradeable contract Roles and Permissions Should grant and check BLACKLIST_MEMBER_ROLE",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should grant and check WHITELIST_MEMBER_ROLE",
+   "fullTitle": "TokenUpgradeable contract Roles and Permissions Should grant and check WHITELIST_MEMBER_ROLE",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should grant and check MASTER_MINTER_ROLE",
+   "fullTitle": "TokenUpgradeable contract Roles and Permissions Should grant and check MASTER_MINTER_ROLE",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should grant and check MINTER_ROLE",
+   "fullTitle": "TokenUpgradeable contract Roles and Permissions Should grant and check MINTER_ROLE",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should grant and check FEE_MANAGER_ROLE",
+   "fullTitle": "TokenUpgradeable contract Roles and Permissions Should grant and check FEE_MANAGER_ROLE",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should grant and check FEE_HOLDER_ROLE",
+   "fullTitle": "TokenUpgradeable contract Roles and Permissions Should grant and check FEE_HOLDER_ROLE",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should allow only PAUSER_ROLE to pause the contract",
+   "fullTitle": "TokenUpgradeable contract Roles and Permissions Should allow only PAUSER_ROLE to pause the contract",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should allow only BLACKLIST_MEMBER_ROLE to blacklist accounts",
+   "fullTitle": "TokenUpgradeable contract Roles and Permissions Should allow only BLACKLIST_MEMBER_ROLE to blacklist accounts",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should mint the funds to the to",
+   "fullTitle": "TokenUpgradeable contract Mint Validations Should mint the funds to the to",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should mint the funds to the owner",
+   "fullTitle": "TokenUpgradeable contract Mint Validations Should mint the funds to the owner",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should emit an event on mint",
+   "fullTitle": "TokenUpgradeable contract Mint Events Should emit an event on mint",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should Redeem the funds to the owner",
+   "fullTitle": "TokenUpgradeable contract Redeem Validations Should Redeem the funds to the owner",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should emit an event on redeem",
+   "fullTitle": "TokenUpgradeable contract Redeem Events Should emit an event on redeem",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should transfer the funds to the owner",
+   "fullTitle": "TokenUpgradeable contract Transfers Validations Should transfer the funds to the owner",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should emit an event on withdrawals",
+   "fullTitle": "TokenUpgradeable contract Transfers Events Should emit an event on withdrawals",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should query decimals",
+   "fullTitle": "TokenUpgradeable contract other functions query decimals Should query decimals",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should be approved for the amount",
+   "fullTitle": "TokenUpgradeable contract other functions approve Should be approved for the amount",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should be remove minter",
+   "fullTitle": "TokenUpgradeable contract other functions removeMinter Should be remove minter",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should be add fee account",
+   "fullTitle": "TokenUpgradeable contract other functions addFeeAccount Should be add fee account",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should be remove fee account",
+   "fullTitle": "TokenUpgradeable contract other functions removeFeeAccount Should be remove fee account",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should be update fee account",
+   "fullTitle": "TokenUpgradeable contract other functions updateFeeManager Should be update fee account",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should be update white status",
+   "fullTitle": "TokenUpgradeable contract other functions updateWhitestatus Should be update white status",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should  transfer the 'from' address funds to the 'to' address",
+   "fullTitle": "TokenUpgradeable contract other functions updateWhitestatus Validations transferFrom Should  transfer the 'from' address funds to the 'to' address",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should  transfer the 'from' address funds to the 'to' address",
+   "fullTitle": "TokenUpgradeable contract other functions updateWhitestatus Validations Events Should  transfer the 'from' address funds to the 'to' address",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should be is Minter account",
+   "fullTitle": "TokenUpgradeable contract other functions isMinter Should be is Minter account",
+   "file": "test/AllTokenTests.ts",
+   "currentRetry": 0,
+   "err": {}
+  }
+ ]
+}

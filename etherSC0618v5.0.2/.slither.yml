@@ -1,0 +1,3 @@
+ignore:
+  - Math.mulDiv
+  - incorrect-exponentiation
