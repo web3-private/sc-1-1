@@ -1,0 +1,78 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/wanghongwei161/Documents/vscodeProject/hello_foundry/hello_foundry/src/Basic4626Deposit.sol": {
+      "lastModificationDate": 1716648539566,
+      "contentHash": "cdd3fc040df6a4d10a997936908c219f",
+      "sourceName": "src/Basic4626Deposit.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.17"
+      ],
+      "artifacts": [
+        "Basic4626Deposit",
+        "IERC20Like"
+      ]
+    },
+    "/Users/wanghongwei161/Documents/vscodeProject/hello_foundry/hello_foundry/src/Counter.sol": {
+      "lastModificationDate": 1716458084340,
+      "contentHash": "5c775c2dcae449acecd0753ddbd31887",
+      "sourceName": "src/Counter.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 2000000
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.13"
+      ],
+      "artifacts": [
+        "Counter"
+      ]
+    }
+  }
+}
