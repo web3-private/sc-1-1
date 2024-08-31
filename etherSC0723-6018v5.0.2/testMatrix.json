@@ -1,0 +1,859 @@
+{
+ "contracts/Blacklistable.sol": {
+  "20": [],
+  "21": [],
+  "29": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "30": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "34": [],
+  "44": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "52": [],
+  "53": [],
+  "61": [],
+  "62": [],
+  "63": [],
+  "72": [],
+  "73": []
+ },
+ "contracts/interfaces/FeeAggregator.sol": {
+  "28": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "29": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "35": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "37": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "38": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "39": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "44": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "45": [],
+  "46": [],
+  "49": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "55": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "56": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "57": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "59": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "63": [],
+  "64": [],
+  "65": [],
+  "66": [],
+  "67": [],
+  "71": [],
+  "75": [],
+  "84": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "85": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "86": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "87": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "88": [],
+  "91": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "92": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "93": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "101": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "102": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "106": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "107": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "108": [],
+  "111": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "112": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "113": [],
+  "116": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "117": [],
+  "119": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "123": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "127": [],
+  "128": [],
+  "129": [],
+  "132": [],
+  "133": [],
+  "134": [],
+  "137": [],
+  "138": [],
+  "139": [],
+  "142": [],
+  "143": [],
+  "146": []
+ },
+ "contracts/Lock.sol": {
+  "14": [],
+  "19": [],
+  "20": [],
+  "27": [],
+  "28": [],
+  "30": [],
+  "32": []
+ },
+ "contracts/Minterable.sol": {
+  "16": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "17": [],
+  "21": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "22": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "26": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "36": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "40": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "41": [],
+  "44": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "45": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "46": [],
+  "51": [],
+  "52": [],
+  "53": [],
+  "54": [],
+  "56": [],
+  "57": []
+ },
+ "contracts/test/TokenValidSign.sol": {
+  "32": [],
+  "34": [],
+  "35": [],
+  "36": [],
+  "40": [],
+  "41": [],
+  "44": []
+ },
+ "contracts/test/TokenValidSignUpgradeable.sol": {
+  "39": [],
+  "40": [],
+  "43": [],
+  "46": [],
+  "48": [],
+  "49": [],
+  "50": [],
+  "54": [],
+  "55": [],
+  "56": []
+ },
+ "contracts/TokenBaseUpgradeable.sol": {
+  "41": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "42": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "43": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "44": [],
+  "46": [],
+  "48": [],
+  "50": [],
+  "51": [],
+  "55": [],
+  "59": [],
+  "63": [],
+  "67": [],
+  "68": [],
+  "72": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "73": [],
+  "77": [],
+  "78": [],
+  "86": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "93": [],
+  "94": [],
+  "104": [],
+  "105": [],
+  "106": [],
+  "113": [],
+  "114": [],
+  "115": [],
+  "116": [],
+  "117": [],
+  "121": [],
+  "122": [],
+  "123": [],
+  "127": [],
+  "128": [],
+  "130": [],
+  "131": [],
+  "132": [],
+  "137": [],
+  "138": [],
+  "140": [],
+  "141": [],
+  "142": [],
+  "147": [],
+  "151": [],
+  "155": [],
+  "159": [],
+  "160": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "161": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "165": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "166": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "167": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "168": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "183": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "184": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "185": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "186": [],
+  "188": [],
+  "189": [],
+  "191": [],
+  "193": [],
+  "197": [],
+  "198": [],
+  "202": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "203": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "205": [],
+  "206": [],
+  "211": [],
+  "215": [],
+  "219": [],
+  "220": [],
+  "221": [],
+  "225": []
+ },
+ "contracts/TokenUpgradeable.sol": {
+  "22": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "23": [],
+  "25": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "26": [],
+  "27": [],
+  "32": [],
+  "36": [],
+  "40": [],
+  "44": [],
+  "48": [],
+  "49": [],
+  "53": [],
+  "55": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "56": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "71": [],
+  "73": [],
+  "74": [],
+  "76": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "77": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "95": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "96": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "97": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "98": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "101": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "102": [],
+  "103": [],
+  "104": [],
+  "107": [],
+  "108": [],
+  "109": [],
+  "111": [],
+  "138": [],
+  "139": [],
+  "140": [],
+  "160": [],
+  "161": [],
+  "162": [],
+  "164": [],
+  "165": [],
+  "166": [],
+  "167": [],
+  "168": [],
+  "171": [],
+  "172": [],
+  "173": [],
+  "174": [],
+  "177": [],
+  "178": []
+ },
+ "contracts/Whitelistable.sol": {
+  "20": [],
+  "21": [],
+  "29": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "30": [],
+  "32": [
+   {
+    "title": "Should transfer the funds to the owner",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   },
+   {
+    "title": "Should emit an event on withdrawals",
+    "file": "test/TokenUpgradeableTransfers.ts"
+   }
+  ],
+  "40": [],
+  "41": [],
+  "44": [],
+  "48": [],
+  "57": [],
+  "65": [],
+  "66": [],
+  "74": [],
+  "75": [],
+  "76": [],
+  "85": [],
+  "86": []
+ }
+}

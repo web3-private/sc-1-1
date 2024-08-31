@@ -1,0 +1,42 @@
+{
+ "stats": {
+  "suites": 4,
+  "tests": 2,
+  "passes": 2,
+  "pending": 0,
+  "failures": 0
+ },
+ "tests": [
+  {
+   "title": "Should transfer the funds to the owner",
+   "fullTitle": "TokenUpgradeable contract Transfers Validations Should transfer the funds to the owner",
+   "file": "test/TokenUpgradeableTransfers.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should emit an event on withdrawals",
+   "fullTitle": "TokenUpgradeable contract Transfers Events Should emit an event on withdrawals",
+   "file": "test/TokenUpgradeableTransfers.ts",
+   "currentRetry": 0,
+   "err": {}
+  }
+ ],
+ "failures": [],
+ "passes": [
+  {
+   "title": "Should transfer the funds to the owner",
+   "fullTitle": "TokenUpgradeable contract Transfers Validations Should transfer the funds to the owner",
+   "file": "test/TokenUpgradeableTransfers.ts",
+   "currentRetry": 0,
+   "err": {}
+  },
+  {
+   "title": "Should emit an event on withdrawals",
+   "fullTitle": "TokenUpgradeable contract Transfers Events Should emit an event on withdrawals",
+   "file": "test/TokenUpgradeableTransfers.ts",
+   "currentRetry": 0,
+   "err": {}
+  }
+ ]
+}

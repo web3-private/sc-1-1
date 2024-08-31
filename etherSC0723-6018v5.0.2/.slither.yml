@@ -1,0 +1,5 @@
+ignore:
+  - incorrect-exponentiation
+  - Math.mulDiv
+detectors:
+  - incorrect-exponentiation: false
